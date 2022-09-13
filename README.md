@@ -1,6 +1,6 @@
-# [Frontend Technologies Standardization](fluxtech-me.github.io/FTS)
+# [Frontend Technologies Standardization](fluxtech-me.github.io/fts)
 
-> You can find the full documentation on the [website](fluxtech-me.github.io/FTS)
+> You can find the full documentation on the [website](fluxtech-me.github.io/fts)
 
 - [Demo Project](/demo)
 - [Docs Porject](/website)
@@ -16,5 +16,5 @@
 
 ### License
 
-[MIT License](https://github.com/fluxtech-me/FTS/blob/master/LICENSE)
+[MIT License](https://github.com/fluxtech-me/fts/blob/master/LICENSE)
 
