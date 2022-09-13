@@ -18,12 +18,12 @@ const config = {
   title: 'FTS',
   tagline: 'Frontend Technologies Standardization',
   url: 'https://fluxtech-me.github.io',
-  baseUrl: '/fts/',
+  baseUrl: '/FTS/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'images/favicon.ico',
   organizationName: 'fluxtech-me', // Usually your GitHub org/user name.
-  projectName: 'fts', // Usually your repo name.
+  projectName: 'FTS', // Usually your repo name.
 
   customFields: {
     description: 'Frontend Technologies Standardization',
@@ -102,7 +102,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/fluxtech-me/fts/edit/master/website/',
+          editUrl: 'https://github.com/fluxtech-me/FTS/edit/master/website/',
 	  showLastUpdateAuthor: true,
         },
         blog: false,
@@ -113,7 +113,7 @@ const config = {
         //   blogSidebarCount: 'ALL',
         //   showReadingTime: true,
         //   // Please change this to your repo.
-        //   editUrl: 'https://github.com/fluxtech-me/fts/edit/master/website/',
+        //   editUrl: 'https://github.com/fluxtech-me/FTS/edit/master/website/',
         // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -154,7 +154,7 @@ const config = {
 
           // right
           {
-            href: 'https://github.com/fluxtech-me/fts',
+            href: 'https://github.com/fluxtech-me/FTS',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
@@ -207,7 +207,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/fluxtech-me/fts',
+                href: 'https://github.com/fluxtech-me/FTS',
               },
             ],
           },
