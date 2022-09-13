@@ -3,7 +3,7 @@
 > You can find the full documentation on the [website](https://fluxtech-me.github.io/fts)
 
 - [Demo Project](/demo)
-- [Docs Porject](/website)
+- [Docs Project](/website)
 
 <br/>
 
