@@ -1,7 +1,9 @@
-# Frontend Technologies Standardization
+# [Frontend Technologies Standardization](fluxtech-me.github.io/fts)
 
-- ## [Demo Project](/demo)
-- ## [Docs Porject](/website)
+> You can find the full documentation on the [website](fluxtech-me.github.io/fts)
+
+- [Demo Project](/demo)
+- [Docs Porject](/website)
 
 <br/>
 
