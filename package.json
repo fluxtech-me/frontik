@@ -1,0 +1,22 @@
+{
+    "name": "fts",
+    "version": "0.0.1",
+    "description": "Frontend Technologies Standardization",
+    "license": "MIT",
+    "homepage": "https://fts.js.org",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/fluxtech-me/fts"
+    },
+    "bugs": {
+      "url": "https://github.com/fluxtech-me/fts/issues",
+      "email" : "ruben.arushanyan24@gmail.com"
+    },
+    "keywords": [
+        "javascript",
+        "frontend",
+        "reactjs",
+        "fts"
+    ],
+    "scripts": {}
+}
