@@ -1,6 +1,6 @@
-# [Frontend Technologies Standardization](https://fluxtech-me.github.io/fts)
+# [Frontend Technologies Standardization](https://fts.js.org)
 
-> You can find the full documentation on the [website](https://fluxtech-me.github.io/fts)
+> You can find the full documentation on the [website](https://fts.js.org)
 
 - [Demo Project](/demo)
 - [Docs Project](/website)
