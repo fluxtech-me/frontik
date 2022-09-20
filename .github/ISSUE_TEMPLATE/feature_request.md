@@ -6,14 +6,10 @@ labels: new feature
 assignees: Ruben-Arushanyan
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+## Describe the feature
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+A clear and concise description of what the feature is.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+## Additional
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+Additional resources and information about the feature.
