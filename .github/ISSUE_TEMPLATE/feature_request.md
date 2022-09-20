@@ -1,10 +1,9 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: "\U0001F41B New Feature Request"
+about: Suggest an idea for this project.
 title: ''
-labels: ''
-assignees: ''
-
+labels: new feature
+assignees: Ruben-Arushanyan
 ---
 
 **Is your feature request related to a problem? Please describe.**

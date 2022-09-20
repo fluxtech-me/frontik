@@ -1,10 +1,9 @@
 ---
 name: "\U0001F41B Bug Report"
 about: Report a bug or unexpected behavior.
-title: 'Bug: '
+title: ''
 labels: bug
 assignees: Ruben-Arushanyan
-
 ---
 
 Version: 
