@@ -1,9 +1,10 @@
 ---
-name: "🐛 Bug Report"
+name: "\U0001F41B Bug Report"
 about: Report a bug or unexpected behavior.
 title: 'Bug: '
 labels: bug
-assignees: ruben-arushanyan
+assignees: Ruben-Arushanyan
+
 ---
 
 Version: 
