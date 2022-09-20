@@ -1,5 +1,5 @@
 ---
-name: "\U0001F41B Bug Report"
+name: "🐛 Bug"
 about: Report a bug or unexpected behavior.
 title: ''
 labels: bug
@@ -8,7 +8,7 @@ assignees: Ruben-Arushanyan
 
 Version: 
 
-## Describe the bug
+## Description
 
 A clear and concise description of what the bug is.
 
@@ -18,8 +18,11 @@ A clear and concise description of what the bug is.
 2.
 
 
-Link to code example:
-
 ### Expected vs actual behavior
 
 A clear and concise description of what you expected to happen and what actually happened.
+
+## Additional
+
+Add any other content that might be helpful.
+
