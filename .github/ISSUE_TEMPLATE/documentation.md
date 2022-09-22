@@ -3,7 +3,7 @@ name: "📃 Documentation"
 about: Please file documentation issues here.
 title: ''
 labels: documentation
-assignees: Ruben-Arushanyan
+assignees: anushavan-karapetyan, ruben-arushanyan
 ---
 
 Link: 

@@ -3,7 +3,7 @@ name: "🤌🏼 Proposal"
 about: To suggest something.
 title: ''
 labels: proposal
-assignees: Ruben-Arushanyan
+assignees: anushavan-karapetyan, ruben-arushanyan
 ---
 
 ## Description

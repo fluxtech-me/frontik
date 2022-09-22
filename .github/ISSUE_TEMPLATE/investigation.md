@@ -3,7 +3,7 @@ name: "🕵 Investigation"
 about: Set an investigation topic.
 title: ''
 labels: investigation
-assignees: Ruben-Arushanyan
+assignees: anushavan-karapetyan, ruben-arushanyan
 ---
 
 ## Description

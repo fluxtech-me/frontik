@@ -3,7 +3,7 @@ name: "🛠️ Imporovement"
 about: Suggest an improvement for this project.
 title: ''
 labels: improvement
-assignees: Ruben-Arushanyan
+assignees: anushavan-karapetyan, ruben-arushanyan
 ---
 
 ## Description

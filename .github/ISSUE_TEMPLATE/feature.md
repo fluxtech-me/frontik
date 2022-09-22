@@ -3,7 +3,7 @@ name: "🆕 Feature"
 about: Suggest an idea for this project.
 title: ''
 labels: new feature
-assignees: Ruben-Arushanyan
+assignees: anushavan-karapetyan, ruben-arushanyan
 ---
 
 ## Description
