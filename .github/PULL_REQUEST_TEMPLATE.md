@@ -1,3 +1,12 @@
+---
+name: "Nameeeee"
+about: Aboutttttt.
+title: 'titleeeeeeeeeeee'
+labels: bug
+assignees: anushavan-karapetyan, ruben-arushanyan
+reviewers: anushavan-karapetyan, ruben-arushanyan
+---
+
 ## Describe your changes
 
 ## Issue ticket number and link
