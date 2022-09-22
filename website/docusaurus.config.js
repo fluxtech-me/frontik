@@ -17,8 +17,8 @@ const additonalInfo = {
 const config = {
   title: 'FTS',
   tagline: 'Frontend Technologies Standardization',
-  url: 'https://fts.js.org',
-  baseUrl: '/',
+  url: 'https://fluxtech-me.github.io',
+  baseUrl: '/fts/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'images/favicon.ico',
