@@ -3,7 +3,7 @@ name: "🐛 Bug"
 about: Report a bug or unexpected behavior.
 title: ''
 labels: bug
-assignees: Ruben-Arushanyan
+assignees: anushavan-karapetyan, ruben-arushanyan
 ---
 
 Version: 
