@@ -18,6 +18,7 @@ This project has adopted the [Contributor Covenant](https://www.contributor-cove
 
 - [Anushavan Karapetyan](https://github.com/anushavan-karapetyan)
 - [Ruben Arushanyan](https://github.com/ruben-arushanyan)
+- [AdarkSt](https://github.com/AdarkSt)
 - [Alexandria](https://github.com/alexkharatyan)
 - [Avag Ghazaryan](https://github.com/avagghazaryan)
 - [Babken Hovhannisyan](https://github.com/babkenhovhannisyan)
