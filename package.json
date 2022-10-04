@@ -1,16 +1,16 @@
 {
     "name": "fts",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Frontend Technologies Standardization",
     "license": "MIT",
     "homepage": "https://fluxtech-me.github.io/fts",
     "repository": {
-      "type": "git",
-      "url": "https://github.com/fluxtech-me/fts"
+        "type": "git",
+        "url": "https://github.com/fluxtech-me/fts"
     },
     "bugs": {
-      "url": "https://github.com/fluxtech-me/fts/issues",
-      "email" : "ruben.arushanyan24@gmail.com"
+        "url": "https://github.com/fluxtech-me/fts/issues",
+        "email": "ruben.arushanyan24@gmail.com"
     },
     "keywords": [
         "javascript",
