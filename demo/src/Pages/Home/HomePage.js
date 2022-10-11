@@ -18,6 +18,7 @@ const HomePage = () => {
 
                 <Link to='/button'>Button</Link><br />
                 <Link to='/modal'>Modal</Link><br />
+                <Link to='/device'>Device</Link><br />
             </main>
         </>
     )
