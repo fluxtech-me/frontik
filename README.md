@@ -1,6 +1,6 @@
-# [Frontik](https://fluxtech-me.github.io/frontik/)
+# [Frontik](https://frontik.js.org/)
 
-> You can find the full documentation on the [website](https://fluxtech-me.github.io/frontik/)
+> You can find the full documentation on the [website](https://frontik.js.org/)
 
 ## Description
 
@@ -12,13 +12,13 @@ Frontend Development Libraries.
 npm install frontik
 ```
 
-## [Documentation](https://fluxtech-me.github.io/frontik/)
+## [Documentation](https://frontik.js.org/)
 
-- [Introduction](https://fluxtech-me.github.io/frontik/docs/introduction)
-- [Device](https://fluxtech-me.github.io/frontik/docs/Device)
+- [Introduction](https://frontik.js.org/docs/introduction)
+- [Device](https://frontik.js.org/docs/Device)
 - React
     - Hooks
-        - [useDevice](https://fluxtech-me.github.io/frontik/docs/React/Hooks/useDevice)
+        - [useDevice](https://frontik.js.org/docs/React/Hooks/useDevice)
     - Components
         - ...
 

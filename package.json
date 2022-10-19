@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "description": "Frontend Development Libraries",
     "license": "MIT",
-    "homepage": "https://fluxtech-me.github.io/frontik",
+    "homepage": "https://frontik.js.org",
     "repository": {
         "type": "git",
         "url": "https://github.com/fluxtech-me/frontik"

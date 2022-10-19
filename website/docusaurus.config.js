@@ -17,8 +17,8 @@ const additonalInfo = {
 const config = {
   title: 'Frontik',
   tagline: 'Frontend Development Libraries',
-  url: 'https://fluxtech-me.github.io',
-  baseUrl: '/frontik/',
+  url: 'https://frontik.js.org',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'images/favicon.ico',
