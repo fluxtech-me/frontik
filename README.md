@@ -2,8 +2,19 @@
 
 > You can find the full documentation on the [website](https://fluxtech-me.github.io/frontik/)
 
-- [Demo Project](/demo)
-- [Docs Project](/website)
+## Description
+
+Frontend Development Libraries.
+
+## Installation
+
+```
+npm install comfortable
+```
+
+## [Documentation](https://fluxtech-me.github.io/frontik/)
+
+- ### [Introduction](https://fluxtech-me.github.io/frontik/docs/introduction)
 
 <br/>
 
