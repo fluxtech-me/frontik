@@ -4,6 +4,12 @@ sidebar_position: 1
 
 `useDevice` is the React hook that returns us the latest information from the [Device](/docs/Device) service.
 
+## Import
+
+```
+import {useDevice} from 'frontik/react/hooks/useDevice'
+```
+
 ## Basic Usage
 
 ```js

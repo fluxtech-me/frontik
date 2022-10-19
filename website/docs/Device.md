@@ -6,6 +6,12 @@ title: Device
 
 A `Device` is a service that provides us with device information.
 
+## Import
+
+```
+import {Device} from 'frontik/device'
+```
+
 ## Basic Usage
 
 ```js
