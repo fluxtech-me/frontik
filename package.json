@@ -18,5 +18,23 @@
         "reactjs",
         "frontik"
     ],
-    "scripts": {}
+    "scripts": {
+        "build": "node scripts/build.js",
+        "test": "npm run to-pack --if-present; node scripts/test.js",
+        "to-pack": "npm run build --if-present; node scripts/to-pack.js",
+        "to-npm-publish": "npm run to-pack --if-present; node scripts/to-npm-publish.js"
+    },
+    "packableFiles": [
+        "package.json",
+        "README.md",
+        "LICENSE",
+        "dist/."
+    ],
+    "sideEffects": false,
+    "devDependencies": {
+        "@babel/cli": "^7.19.3",
+        "@babel/core": "^7.19.3",
+        "@babel/preset-env": "^7.19.4",
+        "@babel/preset-react": "^7.18.6"
+    }
 }
