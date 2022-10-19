@@ -25,7 +25,7 @@ export default function HeroBanner() {
           />
         </h1>
         <h2 className={styles.heroProjectTagline}>
-            <b>Frontend</b> Technologies <b>Standardization</b>
+            <b>Frontend</b> Development <b>Libraries</b>
         </h2>
         <div className={styles.indexCtas}>
           <Link className="button button--primary" to="/docs/introduction">

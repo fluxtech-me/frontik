@@ -15,18 +15,18 @@ const additonalInfo = {
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'FTS',
-  tagline: 'Frontend Technologies Standardization',
+  title: 'Frontik',
+  tagline: 'Frontend Development Libraries',
   url: 'https://fluxtech-me.github.io',
-  baseUrl: '/fts/',
+  baseUrl: '/frontik/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'images/favicon.ico',
   organizationName: 'fluxtech-me', // Usually your GitHub org/user name.
-  projectName: 'fts', // Usually your repo name.
+  projectName: 'frontik', // Usually your repo name.
 
   customFields: {
-    description: 'Frontend Technologies Standardization',
+    description: 'Frontend Development Libraries',
     additonalInfo,
   },
 
@@ -102,18 +102,18 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/fluxtech-me/fts/edit/master/website/',
+          editUrl: 'https://github.com/fluxtech-me/frontik/edit/master/website/',
 	  showLastUpdateAuthor: true,
         },
         blog: false,
         // blog: {
         //   blogTitle: 'Blog',
-        //   blogDescription: 'FTS Blog',
+        //   blogDescription: 'Frontik Blog',
         //   blogSidebarTitle: 'All posts',
         //   blogSidebarCount: 'ALL',
         //   showReadingTime: true,
         //   // Please change this to your repo.
-        //   editUrl: 'https://github.com/fluxtech-me/fts/edit/master/website/',
+        //   editUrl: 'https://github.com/fluxtech-me/frontik/edit/master/website/',
         // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -129,11 +129,11 @@ const config = {
       metadata: [
         {
           name: 'keywords',
-          content: 'fts, frontend, javascript, reactjs',
+          content: 'frontik, frontend, javascript, reactjs',
         },
       ],
       navbar: {
-        title: 'FTS',
+        title: 'Frontik',
         logo: {
           alt: 'Logo',
           src: 'images/icons/icon-72x72.png',
@@ -154,7 +154,7 @@ const config = {
 
           // right
           {
-            href: 'https://github.com/fluxtech-me/fts',
+            href: 'https://github.com/fluxtech-me/frontik',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
@@ -207,7 +207,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/fluxtech-me/fts',
+                href: 'https://github.com/fluxtech-me/frontik',
               },
             ],
           },

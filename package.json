@@ -1,22 +1,22 @@
 {
-    "name": "fts",
+    "name": "frontik",
     "version": "1.0.0",
-    "description": "Frontend Technologies Standardization",
+    "description": "Frontend Development Libraries",
     "license": "MIT",
-    "homepage": "https://fluxtech-me.github.io/fts",
+    "homepage": "https://fluxtech-me.github.io/frontik",
     "repository": {
         "type": "git",
-        "url": "https://github.com/fluxtech-me/fts"
+        "url": "https://github.com/fluxtech-me/frontik"
     },
     "bugs": {
-        "url": "https://github.com/fluxtech-me/fts/issues",
+        "url": "https://github.com/fluxtech-me/frontik/issues",
         "email": "ruben.arushanyan24@gmail.com"
     },
     "keywords": [
         "javascript",
         "frontend",
         "reactjs",
-        "fts"
+        "frontik"
     ],
     "scripts": {}
 }

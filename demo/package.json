@@ -1,7 +1,7 @@
 {
   "name": "demo",
   "version": "0.0.0",
-  "description": "FTS Demo",
+  "description": "Frontik Demo",
   "private": true,
   "dependencies": {
     "history": "^4.10.1",

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-description: Frontend Technologies Standardization
+description: Frontend Development Libraries
 ---
 
 # Introduction

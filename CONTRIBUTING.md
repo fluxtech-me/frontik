@@ -6,12 +6,12 @@ We accept pull requests for bug fixes, improvements, and new features. We'd also
 
 ### Submitting an Issue
 
-* 🐛 Open a [bug issue](https://github.com/fluxtech-me/fts/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=bug&template=bug.md&title=) to report a bug or unexpected behavior.
-* 📃 Open a [documentation issue](https://github.com/fluxtech-me/fts/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=documentation&template=documentation.md&title=) to report a documentation issue.
-* 🆕 Open a [new feature issue](https://github.com/fluxtech-me/fts/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=new+feature&template=feature.md&title=) to suggest an new feature for this project.
-* 🛠️ Open an [improvement issue](https://github.com/fluxtech-me/fts/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=improvement&template=improvement.md&title=) to suggest an improvement for this project.
-* 🕵 Open an [investigation issue](https://github.com/fluxtech-me/fts/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=investigation&template=investigation.md&title=) to set an investigation topic.
-* 🤌🏼 Open an [proposal issue](https://github.com/fluxtech-me/fts/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=proposal&template=proposal.md&title=) to suggest something.
+* 🐛 Open a [bug issue](https://github.com/fluxtech-me/frontik/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=bug&template=bug.md&title=) to report a bug or unexpected behavior.
+* 📃 Open a [documentation issue](https://github.com/fluxtech-me/frontik/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=documentation&template=documentation.md&title=) to report a documentation issue.
+* 🆕 Open a [new feature issue](https://github.com/fluxtech-me/frontik/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=new+feature&template=feature.md&title=) to suggest an new feature for this project.
+* 🛠️ Open an [improvement issue](https://github.com/fluxtech-me/frontik/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=improvement&template=improvement.md&title=) to suggest an improvement for this project.
+* 🕵 Open an [investigation issue](https://github.com/fluxtech-me/frontik/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=investigation&template=investigation.md&title=) to set an investigation topic.
+* 🤌🏼 Open an [proposal issue](https://github.com/fluxtech-me/frontik/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=proposal&template=proposal.md&title=) to suggest something.
 
 ### Git branch naming conventions
 
@@ -31,15 +31,15 @@ Example
 
 ### Got a Question or Problem?
 
-Do not open issues for general support questions as we want to keep GitHub issues for bug reports and feature requests. Instead, we recommend using [GitHub Discussions](https://github.com/fluxtech-me/fts/discussions) to ask support-related questions.
+Do not open issues for general support questions as we want to keep GitHub issues for bug reports and feature requests. Instead, we recommend using [GitHub Discussions](https://github.com/fluxtech-me/frontik/discussions) to ask support-related questions.
 
-## [License](https://github.com/fluxtech-me/fts/blob/master/LICENSE)
+## [License](https://github.com/fluxtech-me/frontik/blob/master/LICENSE)
 
-Contributions to this project are released to the public under the [project's open source license](https://github.com/fluxtech-me/fts/blob/master/LICENSE).
+Contributions to this project are released to the public under the [project's open source license](https://github.com/fluxtech-me/frontik/blob/master/LICENSE).
 
-## [Code of Conduct](https://github.com/fluxtech-me/fts/blob/master/CODE_OF_CONDUCT.md)
+## [Code of Conduct](https://github.com/fluxtech-me/frontik/blob/master/CODE_OF_CONDUCT.md)
 
-This project has adopted the [Contributor Covenant](https://www.contributor-covenant.org) as its Code of Conduct, and we expect project participants to adhere to it. Please read the [full text](https://github.com/fluxtech-me/fts/blob/master/CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
+This project has adopted the [Contributor Covenant](https://www.contributor-covenant.org) as its Code of Conduct, and we expect project participants to adhere to it. Please read the [full text](https://github.com/fluxtech-me/frontik/blob/master/CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
 
 ## Resources
 

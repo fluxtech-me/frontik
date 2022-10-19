@@ -1,4 +1,4 @@
-# FTS Demo
+# Frontik Demo
 
 ## Requirements
 

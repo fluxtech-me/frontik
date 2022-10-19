@@ -13,7 +13,7 @@ const HomePage = () => {
                 <title>Home</title>
             </Helmet>
             <main>
-                <h1>FTS Demo</h1>
+                <h1>Frontik Demo</h1>
                 <hr/>
 
                 <Link to='/button'>Button</Link><br />
