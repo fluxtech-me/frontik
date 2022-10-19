@@ -1,6 +1,26 @@
 ---
 sidebar_position: 1
-description: Frontend Development Libraries
+title: Introduction
 ---
 
-# Introduction
+# Frontik
+
+## Description
+
+Frontend Development Libraries.
+
+## Installation
+
+```
+npm install frontik
+```
+
+## References
+
+- [Device](/docs/Device)
+- React
+    - Hooks
+        - [useDevice](/docs/React/Hooks/useDevice)
+    - Components
+        - ...
+
