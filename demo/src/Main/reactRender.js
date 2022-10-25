@@ -1,13 +1,13 @@
 import {StrictMode} from 'react'
-import {render} from 'react-dom'
+import {createRoot} from 'react-dom/client'
 import {Main} from './Main'
 
 const reactRender = () => {
-    render(
+    const root = createRoot(document.getElementById('root'))
+    root.render(
         <StrictMode>
             <Main />
-        </StrictMode>,
-        document.getElementById('root')
+        </StrictMode>
     )
 }
 
