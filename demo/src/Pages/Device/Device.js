@@ -1,13 +1,13 @@
 class Device {
     get width() {
-        return window.innerWidth;
+        return window.innerWidth
     }
 
     get height() {
-        return window.innerHeight;
+        return window.innerHeight
     }
 }
 
-const device = new Device();
+const device = new Device()
 
 export {device}

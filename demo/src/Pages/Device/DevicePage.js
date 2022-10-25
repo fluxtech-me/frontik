@@ -3,8 +3,8 @@ import {Helmet} from 'react-helmet-async'
 // hooks
 import {useWindowScroll} from 'Hooks'
 
-import {device} from './Device';
-import {useDevice} from './useDevice';
+import {device} from './Device'
+import {useDevice} from './useDevice'
 
 const DeviceServiceInfo = () => {
     return <div>
@@ -15,7 +15,7 @@ const DeviceServiceInfo = () => {
 }
 
 const UseDeviceHookInfo = () => {
-    const deviceInfo = useDevice();
+    const deviceInfo = useDevice()
 
     return <div>
         <h2>useDevice hook</h2>
