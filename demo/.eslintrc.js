@@ -4,7 +4,7 @@ module.exports = {
         "react-app/jest",
     ],
     "rules": {
-        // "import/no-anonymous-default-export": "off",
+        "import/no-anonymous-default-export": "off",
         "quotes": ["error", "single"],
         "semi": ["error", "never"],
     },
