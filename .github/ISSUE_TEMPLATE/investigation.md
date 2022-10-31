@@ -1,7 +1,7 @@
 ---
 name: "🕵 Investigation"
 about: Set an investigation topic.
-title: ''
+title: ""
 labels: investigation
 assignees: anushavan-karapetyan, ruben-arushanyan
 ---

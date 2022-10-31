@@ -1,12 +1,12 @@
 ---
 name: "🐛 Bug"
 about: Report a bug or unexpected behavior.
-title: ''
+title: ""
 labels: bug
 assignees: anushavan-karapetyan, ruben-arushanyan
 ---
 
-Version: 
+Version:
 
 ## Description
 
@@ -17,7 +17,6 @@ A clear and concise description of what the bug is.
 1.
 2.
 
-
 ### Expected vs actual behavior
 
 A clear and concise description of what you expected to happen and what actually happened.
@@ -25,4 +24,3 @@ A clear and concise description of what you expected to happen and what actually
 ## Additional
 
 Add any other content that might be helpful.
-

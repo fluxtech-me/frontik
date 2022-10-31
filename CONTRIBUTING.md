@@ -6,12 +6,12 @@ We accept pull requests for bug fixes, improvements, and new features. We'd also
 
 ### Submitting an Issue
 
-* 🐛 Open a [bug issue](https://github.com/fluxtech-me/frontik/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=bug&template=bug.md&title=) to report a bug or unexpected behavior.
-* 📃 Open a [documentation issue](https://github.com/fluxtech-me/frontik/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=documentation&template=documentation.md&title=) to report a documentation issue.
-* 🆕 Open a [new feature issue](https://github.com/fluxtech-me/frontik/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=new+feature&template=feature.md&title=) to suggest an new feature for this project.
-* 🛠️ Open an [improvement issue](https://github.com/fluxtech-me/frontik/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=improvement&template=improvement.md&title=) to suggest an improvement for this project.
-* 🕵 Open an [investigation issue](https://github.com/fluxtech-me/frontik/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=investigation&template=investigation.md&title=) to set an investigation topic.
-* 🤌🏼 Open an [proposal issue](https://github.com/fluxtech-me/frontik/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=proposal&template=proposal.md&title=) to suggest something.
+- 🐛 Open a [bug issue](https://github.com/fluxtech-me/frontik/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=bug&template=bug.md&title=) to report a bug or unexpected behavior.
+- 📃 Open a [documentation issue](https://github.com/fluxtech-me/frontik/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=documentation&template=documentation.md&title=) to report a documentation issue.
+- 🆕 Open a [new feature issue](https://github.com/fluxtech-me/frontik/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=new+feature&template=feature.md&title=) to suggest an new feature for this project.
+- 🛠️ Open an [improvement issue](https://github.com/fluxtech-me/frontik/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=improvement&template=improvement.md&title=) to suggest an improvement for this project.
+- 🕵 Open an [investigation issue](https://github.com/fluxtech-me/frontik/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=investigation&template=investigation.md&title=) to set an investigation topic.
+- 🤌🏼 Open an [proposal issue](https://github.com/fluxtech-me/frontik/issues/new?assignees=anushavan-karapetyan%2C+ruben-arushanyan&labels=proposal&template=proposal.md&title=) to suggest something.
 
 ### Git branch naming conventions
 
@@ -20,9 +20,11 @@ We accept pull requests for bug fixes, improvements, and new features. We'd also
 - Use hyphens as separators.
 
 Example
+
 ```bash
 722-add-billing-module
 ```
+
 ### Submitting a pull request
 
 1. Create a new branch: `git checkout -b 722-my-branch-name`

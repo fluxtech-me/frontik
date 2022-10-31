@@ -17,11 +17,10 @@ npm install frontik
 - [Introduction](https://frontik.js.org/docs/introduction)
 - [Device](https://frontik.js.org/docs/Device)
 - React
-    - Hooks
-        - [useDevice](https://frontik.js.org/docs/React/Hooks/useDevice)
-    - Components
-        - ...
-
+  - Hooks
+    - [useDevice](https://frontik.js.org/docs/React/Hooks/useDevice)
+  - Components
+    - ...
 
 <br/>
 
@@ -32,6 +31,7 @@ Read our [contributing guide](https://github.com/fluxtech-me/frontik/blob/master
 ### [Code of Conduct](https://github.com/fluxtech-me/frontik/blob/master/CODE_OF_CONDUCT.md)
 
 This project has adopted the [Contributor Covenant](https://www.contributor-covenant.org) as its Code of Conduct, and we expect project participants to adhere to it. Please read the [full text](https://github.com/fluxtech-me/frontik/blob/master/CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
+
 ### Maintainers
 
 - [Anushavan Karapetyan](https://github.com/anushavan-karapetyan)
@@ -44,9 +44,6 @@ This project has adopted the [Contributor Covenant](https://www.contributor-cove
 - [Sargis Varderesyan](https://github.com/sargisvarderesyan)
 - [Sergey Isakhanyan](https://github.com/SergeyIsakhanyan)
 
-
-
 ### License
 
 [MIT License](https://github.com/fluxtech-me/frontik/blob/master/LICENSE)
-

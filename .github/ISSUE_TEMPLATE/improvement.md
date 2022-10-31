@@ -1,7 +1,7 @@
 ---
 name: "🛠️ Imporovement"
 about: Suggest an improvement for this project.
-title: ''
+title: ""
 labels: improvement
 assignees: anushavan-karapetyan, ruben-arushanyan
 ---
