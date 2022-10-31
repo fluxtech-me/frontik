@@ -1,15 +1,15 @@
-import { useEffect, useState } from 'react'
-import { device } from './Device'
+import { useEffect, useState } from "react";
+import { device } from "./Device";
 
 const useDevice = () => {
-    const [,forceUpdate] = useState() 
+  const [, forceUpdate] = useState();
 
-    useEffect(() => {
-        window.addEventListener('resize', forceUpdate)
-        return () => window.removeEventListener('resize', forceUpdate)
-    }, [])
+  useEffect(() => {
+    window.addEventListener("resize", forceUpdate);
+    return () => window.removeEventListener("resize", forceUpdate);
+  }, []);
 
-    return device
-}
+  return device;
+};
 
-export { useDevice }
+export { useDevice };
