@@ -20,6 +20,7 @@
   ],
   "scripts": {
     "build": "node scripts/build.js",
+    "prettier-fix": "prettier --write .",
     "test": "npm run to-pack --if-present; node scripts/test.js",
     "to-pack": "npm run build --if-present; node scripts/to-pack.js",
     "to-npm-publish": "npm run to-pack --if-present; node scripts/to-npm-publish.js"
