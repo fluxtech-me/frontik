@@ -1,0 +1,51 @@
+@import "./colors.scss";
+@mixin size($font-size, $padding) {
+  font-size: $font-size;
+  padding: $padding;
+}
+
+@mixin disabled($color: rgba(0, 0, 0, 0.26), $backgroundColor: currentColor) {
+  pointer-events: none;
+  cursor: default;
+  color: $color !important;
+  background-color: $backgroundColor;
+}
+
+@mixin getBtnColors($variant) {
+  @each $colorName, $color in $colorNames {
+    &.frontik-btn-#{$colorName} {
+      &:hover {
+        background-color: lighten($color, 45);
+      }
+      color: $color;
+      @if ($variant == "outlined") {
+        border: 1px solid currentColor;
+      } @else if $variant == "contained" {
+        color: #fff;
+        background-color: $color;
+        &:hover {
+          background-color: darken($color, 5);
+        }
+      }
+    }
+  }
+}
+
+#buttonDefaults {
+  min-width: 64px;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  border: 0;
+  margin: 0;
+  border-radius: 4px;
+  position: relative;
+  align-items: center;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  column-gap: 5px;
+  &:hover {
+    cursor: pointer;
+  }
+}

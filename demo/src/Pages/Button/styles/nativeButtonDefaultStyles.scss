@@ -1,0 +1,73 @@
+@import "./mixins.scss";
+
+.frontik-btn {
+  @extend #buttonDefaults;
+
+  &-outlined {
+    background-color: transparent;
+    @include getBtnColors("outlined");
+
+    &.frontik-btn-small {
+      @include size(0.8125rem, 3px 9px);
+    }
+
+    &.frontik-btn-medium {
+      @include size(0.875rem, 5px 15px);
+    }
+
+    &.frontik-btn-large {
+      @include size(0.9375rem, 7px 21px);
+    }
+
+    &.frontik-btn-disabled,
+    &.frontik-btn-loading {
+      @include disabled();
+      background: transparent;
+      border: 1px solid rgba(0, 0, 0, 0.26) !important;
+    }
+  }
+
+  &-text {
+    background-color: transparent;
+    @include getBtnColors("text");
+
+    &.frontik-btn-disabled,
+    &.frontik-btn-loading {
+      @include disabled();
+      background: transparent;
+    }
+
+    &.frontik-btn-small {
+      @include size(0.8125rem, 4px 5px);
+    }
+
+    &.frontik-btn-medium {
+      @include size(0.875rem, 6px 8px);
+    }
+
+    &.frontik-btn-large {
+      @include size(0.9375rem, 8px 11px);
+    }
+  }
+
+  &-contained {
+    @include getBtnColors("contained");
+
+    &.frontik-btn-small {
+      @include size(0.8125rem, 4px 10px);
+    }
+
+    &.frontik-btn-medium {
+      @include size(0.875rem, 6px 16px);
+    }
+
+    &.frontik-btn-large {
+      @include size(0.9375rem, 8px 22px);
+    }
+
+    &.frontik-btn-disabled,
+    &.frontik-btn-loading {
+      @include disabled($backgroundColor: rgba(0, 0, 0, 0.12));
+    }
+  }
+}
