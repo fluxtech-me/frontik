@@ -14,8 +14,9 @@
     "sass": "^1.55.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "start": "npm run lib-change & react-scripts start",
+    "build": "react-scripts build",
+    "lib-change": "onchange '../src' -- npm run to-pack --prefix .."
   },
   "browserslist": {
     "production": [
@@ -28,5 +29,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "onchange": "^7.1.0"
   }
 }
