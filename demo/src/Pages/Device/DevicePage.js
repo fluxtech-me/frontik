@@ -3,15 +3,15 @@ import { Helmet } from "react-helmet-async";
 // hooks
 import { useWindowScroll } from "Hooks";
 
-import { device } from "./Device";
-import { useDevice } from "./useDevice";
+import { Device } from "frontik/device";
+import { useDevice } from "frontik/react/hooks/useDevice";
 
 const DeviceServiceInfo = () => {
   return (
     <div>
       <h2>Device Service</h2>
-      <p>width - {device.width}</p>
-      <p>height - {device.height}</p>
+      <p>width - {Device.width}</p>
+      <p>height - {Device.height}</p>
     </div>
   );
 };
