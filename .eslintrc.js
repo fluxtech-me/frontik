@@ -3,6 +3,6 @@ module.exports = {
   rules: {
     "import/no-anonymous-default-export": "off",
     "semi": ["error", "always"],
-    "quotes": ["error", "dubble"],
+    "quotes": ["error", "double"],
   },
 };
