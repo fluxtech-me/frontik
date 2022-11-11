@@ -2,7 +2,11 @@ import { Helmet } from "react-helmet-async";
 
 // hooks
 import { useWindowScroll } from "Hooks";
-
+// import { Device } from "frontik/device";
+// import { useDevice } from "frontik/react/hooks/useDevice";
+// "paths": {
+//   "frontik/*": ["../../src/*"]
+// }
 import { Device } from "../../../../src/device";
 import { useDevice } from "../../../../src/react/hooks/useDevice";
 
