@@ -69,8 +69,8 @@ function getWebpackAliases(options = {}) {
     };
   }
   return {
-    "frontik": paths.libSrc
-  }
+    frontik: paths.libSrc,
+  };
 }
 
 /**
