@@ -11,6 +11,8 @@ const DeviceServiceInfo = () => {
       <h2>Device Service</h2>
       <p>width - {Device.width}</p>
       <p>height - {Device.height}</p>
+      <p>browserName - {Device.browserName}</p>
+      <p>isChrome - {Device.isChrome.toString()}</p>
     </div>
   );
 };
