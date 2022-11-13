@@ -67,7 +67,7 @@ Returns the interior height of the window in pixels. This includes the height of
 ```js
 import {Device} from 'frontik/device'
 
-console.log(Device.browserName); // Chrome
+console.log(Device.browserName); // Google Chrome
 
 ```
 List of browsers
