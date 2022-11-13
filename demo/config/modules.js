@@ -68,6 +68,9 @@ function getWebpackAliases(options = {}) {
       src: paths.appSrc,
     };
   }
+  return {
+    frontik: paths.libSrc,
+  };
 }
 
 /**
