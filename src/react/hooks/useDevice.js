@@ -1,1 +1,1 @@
-export { useDevice } from "../../.internal/react-hooks/useDevice";
+export { useDevice } from "../../.internal/react/hooks/useDevice";

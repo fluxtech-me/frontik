@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Device } from "../services/device";
+import { Device } from "../../device";
 
 const useDevice = () => {
   const [, forceUpdate] = useState();
