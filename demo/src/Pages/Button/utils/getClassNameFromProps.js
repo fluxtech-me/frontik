@@ -14,7 +14,7 @@ export const getClassNameFromProps = ({
     classNames.push("-loading");
   }
   const addaptedClassNames = classNames.map((className) => {
-    return `frontik-btn` + className;
+    return "frontik-btn" + className;
   });
   return addaptedClassNames.join(" ");
 };

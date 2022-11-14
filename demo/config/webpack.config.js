@@ -407,7 +407,7 @@ module.exports = function (webpackEnv) {
             // The preset includes JSX, Flow, TypeScript, and some ESnext features.
             {
               test: /\.(js|mjs|jsx|ts|tsx)$/,
-              include: paths.appSrc,
+              include: [paths.appSrc, paths.libSrc],
               loader: require.resolve("babel-loader"),
               options: {
                 customize: require.resolve(
@@ -731,7 +731,7 @@ module.exports = function (webpackEnv) {
           formatter: require.resolve("react-dev-utils/eslintFormatter"),
           eslintPath: require.resolve("eslint"),
           failOnError: !(isEnvDevelopment && emitErrorsAsWarnings),
-          context: paths.appSrc,
+          context: paths.rootPath,
           cache: true,
           cacheLocation: path.resolve(
             paths.appNodeModules,

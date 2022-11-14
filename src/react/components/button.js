@@ -1,1 +1,1 @@
-export { Button } from "../../.internal/react/components/button";
+export { Button } from "../../_/react/components/button";

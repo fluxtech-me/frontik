@@ -1,1 +1,1 @@
-export { Device } from "./.internal/device";
+export { Device } from "./_/device";
