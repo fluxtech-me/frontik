@@ -737,6 +737,7 @@ module.exports = function (webpackEnv) {
             paths.appNodeModules,
             ".cache/.eslintcache"
           ),
+          rulePaths: [paths.rootPath],
           // ESLint class options
           cwd: paths.appPath,
           resolvePluginsRelativeTo: __dirname,
