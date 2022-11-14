@@ -1,5 +1,7 @@
+import "./aaa.scss";
+
 const Aaa = () => {
-  return <div>aaa</div>;
+  return <div className="aaaa">aaa</div>;
 };
 
 export { Aaa };
