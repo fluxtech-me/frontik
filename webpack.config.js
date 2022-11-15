@@ -4,17 +4,28 @@ const libraryName = pkg.name;
 
 module.exports = {
   mode: "production",
-  entry: path.join(__dirname, "./src/aaa.js"),
+  entry: {
+    aaa: path.join(__dirname, "./src/aaa"),
+    device: path.join(__dirname, "./src/device"),
+    ["react/hooks/useDevice"]: path.join(
+      __dirname,
+      "./src/react/hooks/useDevice"
+    ),
+  },
   output: {
     path: path.join(__dirname, "./dist"),
-    filename: "aaa.js",
+    filename: "[name].js",
     library: libraryName,
     libraryTarget: "umd",
     publicPath: "/dist/",
     umdNamedDefine: true,
   },
+  optimization: {
+    splitChunks: {
+      chunks: "all",
+    },
+  },
   plugins: [],
-  node: false,
   module: {
     rules: [
       {
