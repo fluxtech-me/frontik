@@ -21,7 +21,7 @@ const publicUrlOrPath = getPublicUrlOrPath(
   process.env.PUBLIC_URL
 );
 
-const buildPath = process.env.BUILD_PATH || "build";
+const buildPath = process.env.BUILD_PATH || "demo/build";
 
 const moduleFileExtensions = [
   "web.mjs",
@@ -52,25 +52,25 @@ const resolveModule = (resolveFn, filePath) => {
 
 // config after eject: we're in ./config/
 module.exports = {
-  dotenv: resolveApp(".env"),
-  appPath: resolveApp("."),
-  rootPath: resolveApp(".."),
+  dotenv: resolveApp("demo/.env"),
+  appPath: resolveApp("demo"),
+  rootPath: resolveApp("."),
   appBuild: resolveApp(buildPath),
-  appPublic: resolveApp("public"),
-  appHtml: resolveApp("public/index.html"),
-  appIndexJs: resolveModule(resolveApp, "src/index"),
+  appPublic: resolveApp("demo/public"),
+  appHtml: resolveApp("demo/public/index.html"),
+  appIndexJs: resolveModule(resolveApp, "demo/src/index"),
   appPackageJson: resolveApp("package.json"),
-  appSrc: resolveApp("src"),
-  libSrc: resolveApp("../src"),
-  appTsConfig: resolveApp("tsconfig.json"),
-  appJsConfig: resolveApp("jsconfig.json"),
-  yarnLockFile: resolveApp("yarn.lock"),
-  testsSetup: resolveModule(resolveApp, "src/setupTests"),
-  proxySetup: resolveApp("src/setupProxy.js"),
+  appSrc: resolveApp("demo/src"),
+  libSrc: resolveApp("src"),
+  appTsConfig: resolveApp("demo/tsconfig.json"),
+  appJsConfig: resolveApp("demo/jsconfig.json"),
+  yarnLockFile: resolveApp("demo/yarn.lock"),
+  testsSetup: resolveModule(resolveApp, "demo/src/setupTests"),
+  proxySetup: resolveApp("demo/src/setupProxy.js"),
   appNodeModules: resolveApp("node_modules"),
   appWebpackCache: resolveApp("node_modules/.cache"),
   appTsBuildInfoFile: resolveApp("node_modules/.cache/tsconfig.tsbuildinfo"),
-  swSrc: resolveModule(resolveApp, "src/service-worker"),
+  swSrc: resolveModule(resolveApp, "demo/src/service-worker"),
   publicUrlOrPath,
 };
 
