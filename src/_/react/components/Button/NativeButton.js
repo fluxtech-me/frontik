@@ -1,7 +1,7 @@
-import { getClassNameFromProps } from "../utils/getClassNameFromProps";
-import "../styles/nativeButtonDefaultStyles.scss";
+import { getClassNameFromProps } from "./getClassNameFromProps";
+import "./Button.scss";
 
-export const NativeButton = (props) => {
+const NativeButton = (props) => {
   const {
     className = "",
     disabled = false,
@@ -47,3 +47,5 @@ export const NativeButton = (props) => {
     </button>
   );
 };
+
+export { NativeButton };

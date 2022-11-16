@@ -1,9 +1,6 @@
 import { Helmet } from "react-helmet-async";
 
-// hooks
 import { useWindowScroll } from "Hooks";
-import { NativeButton } from "./src/NativeButton";
-import "./buttonPage.scss";
 import { CircularProgress, Radio, RadioGroup } from "@mui/material";
 import { useState } from "react";
 import WarningIcon from "@mui/icons-material/Warning";
@@ -12,7 +9,9 @@ import HelpCenterIcon from "@mui/icons-material/HelpCenter";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
 import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
-import { Button } from "./src";
+import { Button, NativeButton } from "frontik/react/Button";
+
+import "./ButtonPage.scss";
 
 const ButtonPage = () => {
   useWindowScroll({ x: 0, y: 0, atReload: true });
