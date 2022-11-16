@@ -13,8 +13,8 @@ const build = async () => {
       `npx sass --no-source-map --stop-on-error ${SOURCE_DIR}:${BUILD_DIR}`
     );
     await execPromise(`npx babel ${SOURCE_DIR} --out-dir ${BUILD_DIR}`);
-  } catch(error) {
-    console.error(error)
+  } catch (error) {
+    console.error(error);
   }
 };
 
