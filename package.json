@@ -25,7 +25,8 @@
     "prettier-fix": "prettier --write .",
     "test": "npm run to-pack --if-present; node scripts/test.js",
     "to-pack": "npm run build --if-present; node scripts/to-pack.js",
-    "to-npm-publish": "npm run to-pack --if-present; node scripts/to-npm-publish.js"
+    "to-npm-publish": "npm run to-pack --if-present; node scripts/to-npm-publish.js",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -93,7 +94,8 @@
     "webpack": "^5.64.4",
     "webpack-dev-server": "^4.6.0",
     "webpack-manifest-plugin": "^4.0.2",
-    "workbox-webpack-plugin": "^6.4.1"
+    "workbox-webpack-plugin": "^6.4.1",
+    "husky": "^8.0.0"
   },
   "browserslist": {
     "production": [
