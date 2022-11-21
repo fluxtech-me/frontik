@@ -6,6 +6,7 @@ const test = async () => {
   await execPromise(`
         echo "No test specified :)"
   `);
+  console.error("test!!!");
 };
 
 test();
