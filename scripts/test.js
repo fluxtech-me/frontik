@@ -1,12 +1,4 @@
-const { exec } = require("child_process");
-const util = require("util");
-const execPromise = util.promisify(exec);
+const shell = require("shelljs");
+shell.config.fatal = true;
 
-const test = async () => {
-  await execPromise(`
-        echo "No test specified :)"
-  `);
-  console.error("test!!!");
-};
-
-test();
+shell.echo("No test specified :)");
