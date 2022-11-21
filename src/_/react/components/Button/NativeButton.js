@@ -1,3 +1,4 @@
+import React from "react";
 import { getClassNameFromProps } from "./getClassNameFromProps";
 import "./Button.scss";
 
