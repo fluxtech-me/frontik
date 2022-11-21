@@ -6,7 +6,6 @@ const BROWSERS = {
   safari: "Safari",
   firefox: "Firefox",
 };
-
 class Device {
   get width() {
     return window.innerWidth;
