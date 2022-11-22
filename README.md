@@ -44,6 +44,7 @@ This project has adopted the [Contributor Covenant](https://www.contributor-cove
 - [Samo Melkonyan](https://github.com/SamoMelkonyan)
 - [Sargis Varderesyan](https://github.com/sargisvarderesyan)
 - [Sergey Isakhanyan](https://github.com/SergeyIsakhanyan)
+- [Gevorg Margaryan](https://github.com/g-margaryan)
 
 ### License
 
