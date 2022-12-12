@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import FrontikIcons from "./FrontikIcons";
-import { Icon } from "./index";
+import { Icon } from "frontik/react/Icon";
 // hooks
 import { useWindowScroll } from "Hooks";
 
@@ -9,7 +9,6 @@ const IconPage = () => {
   useWindowScroll({ x: 0, y: 0, atReload: true });
 
   const clickHandler = (e) => {
-    console.log(e);
     alert("Hello Frontik");
   };
 
@@ -28,19 +27,11 @@ const IconPage = () => {
         <section className="sec-wrapper">
           <section className="components-section">
             <h2>ICOMOON</h2>
-            <ul className="demo-type-list">
+            <h4>Icomoon project nested icons</h4>
+            <ul className="demo-type-list demo-box">
               <li>
                 <b>Clickable</b>
               </li>
-              {/*<li>*/}
-              {/*    <Icon*/}
-              {/*        onClick={(e) => clickHandler(e)}*/}
-              {/*        tabIndex="0"*/}
-              {/*        size="md"*/}
-              {/*        color="warning"*/}
-              {/*        name="earth"*/}
-              {/*    />*/}
-              {/*</li>*/}
               <li>
                 <Icon
                   onClick={(e) => clickHandler(e)}
@@ -51,19 +42,8 @@ const IconPage = () => {
                   name="frontik frontik-earth"
                 />
               </li>
-              {/*<li>*/}
-              {/*    <button*/}
-              {/*        onClick={(e) => clickHandler(e)}*/}
-              {/*    >*/}
-              {/*        <Icon*/}
-              {/*            color="secondary"*/}
-              {/*            size="md"*/}
-              {/*            name="earth"*/}
-              {/*        />*/}
-              {/*    </button>*/}
-              {/*</li>*/}
             </ul>
-            <ul className="demo-type-list">
+            <ul className="demo-type-list demo-box">
               <li>
                 <b>Element by Color</b>
               </li>
@@ -85,6 +65,7 @@ const IconPage = () => {
               </li>
               <li>
                 <Icon
+                  disabled
                   color="primary"
                   size="md"
                   name="frontik frontik-info1"
@@ -116,7 +97,7 @@ const IconPage = () => {
                 />
               </li>
             </ul>
-            <ul className="demo-type-list">
+            <ul className="demo-type-list demo-box">
               <li>
                 <b>Element by Size</b>
               </li>
@@ -161,7 +142,7 @@ const IconPage = () => {
                 />
               </li>
             </ul>
-            <ul className="demo-type-list">
+            <ul className="demo-type-list demo-box">
               <li>
                 <b>Animating</b>
               </li>
@@ -205,15 +186,24 @@ const IconPage = () => {
           </section>
           <section className="components-section">
             <h2>FONT AWESOME</h2>
-            <ul className="demo-type-list">
+            <h4>Externally used icons (In this case FontAwesome)</h4>
+            <ul className="demo-type-list demo-box">
               <li>
-                <Icon name="fa fa-heart" color="primary" size="xlg" />
+                <Icon name="fa fa-heart" color="primary" size="md" />
               </li>
               <li>
                 <Icon
                   name="fa fa-twitter"
                   color="secondary"
-                  size="lg"
+                  size="md"
+                  className="fa-solid"
+                />
+              </li>
+              <li>
+                <Icon
+                  name="fa fa-earth"
+                  color="warning"
+                  size="md"
                   className="fa-solid"
                 />
               </li>

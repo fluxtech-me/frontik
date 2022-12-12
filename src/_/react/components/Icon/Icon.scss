@@ -1,24 +1,9 @@
+@import "../../../styles/colors.scss";
+
 $prefix: "frontik";
 
 //SIZES
 $sizes: "xs" 12, "sm" 16, "md" 24, "lg" 32, "xlg" 38;
-
-//COLORS
-$primary: #1976d2;
-$secondary: #9c27b0;
-$error: #d32f2f;
-$info: #0288d1;
-$warning: #ed6c02;
-$success: #2e7d32;
-
-$colorNames: (
-  "primary" $primary,
-  "secondary" $secondary,
-  "error" $error,
-  "info" $info,
-  "warning" $warning,
-  "success" $success
-);
 
 //GET COLOR CLASSNAMES
 @each $colorName, $color in $colorNames {
@@ -48,16 +33,16 @@ $colorNames: (
   }
 }
 
-[class*="frontik"] {
-  &:focus {
-    color: orange;
-  }
-
-  &:focus-within {
-    color: red;
-  }
-
-  &:focus-visible {
-    color: blue;
-  }
-}
+//[class*="frontik"] {
+//  &:focus {
+//    color: orange;
+//  }
+//
+//  &:focus-within {
+//    color: red;
+//  }
+//
+//  &:focus-visible {
+//    color: blue;
+//  }
+//}

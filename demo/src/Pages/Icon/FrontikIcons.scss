@@ -1,23 +1,29 @@
-//@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css";
 @import "../../Assets/fonts/frontik/style";
+@import "../../Assets/styles/variables";
+
 //demo
 .demo-icons {
   li {
-    border: 1px solid var(--greenColor);
-    padding: 10px;
-    border-radius: 8px;
-    flex: 0 0 calc(100% / 10);
+    padding: 14px 10px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    max-width: 200px;
+    transition: 0.2s ease-out;
+    opacity: 0.8;
+    &:hover {
+      opacity: 1;
+      color: var(--green);
+    }
     .name {
       display: block;
       margin-top: 10px;
       font-size: 12px;
-      color: var(--darkColor);
+      color: currentColor;
     }
   }
 }
 
 .components-section {
-  max-width: 80%;
   margin: 0 auto;
   .demo-type-list {
     text-align: center;
@@ -25,9 +31,6 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    border: 1px solid var(--greenColor);
-    border-radius: 8px;
-    padding: 20px;
     li {
       color: #333;
     }
@@ -36,33 +39,46 @@
     }
   }
 }
-@media screen {
-  .sec-wrapper {
-    display: flex;
-  }
-  .components-section {
-    max-width: 50%;
-    padding: 0 40px;
-    flex: 1;
-  }
-}
+
 .rowed {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   .toggler {
-    padding: 10px 12px;
-    border: none;
-    text-decoration: none;
-    background: var(--greenColor);
-    color: white;
     font-size: 18px;
-    border-radius: 8px;
     margin: 0 20px 0 0;
-    transition: opacity 0.3s ease-out;
-    cursor: pointer;
-    &:hover {
-      opacity: 0.8;
+  }
+}
+
+@include screen(sm) {
+  .sec-wrapper {
+    display: flex;
+  }
+  .components-section {
+    max-width: 50%;
+    padding: 0 20px;
+    flex: 1;
+  }
+  .demo-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+  }
+}
+
+@include screen(md) {
+  .components-section {
+    padding: 0 40px;
+    margin-top: 40px;
+  }
+  .demo-section {
+    padding: 0 40px;
+    margin: {
+      top: 40px;
+      left: -10px;
+      right: -10px;
+      bottom: 0;
     }
   }
 }

@@ -1,6 +1,6 @@
-:root {
-  --greenColor: #1a8870;
-  --darkColor: #333;
+@import "../../Assets/styles/variables";
+.demo-box {
+  @extend #demoBox;
 }
 main {
   min-height: 100vh;
@@ -22,13 +22,10 @@ main {
       margin: 5px 10px;
       a {
         text-decoration: none;
-        padding: 6px 8px;
         display: inline-block;
         color: currentColor;
         font-weight: 500;
         transition: background-color 0.3s ease-out;
-        border-radius: 4px;
-        border: 1px solid;
         &:hover {
           background-color: rgba(#1a8870, 0.1);
         }

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Icon } from "Pages/Icon/index";
+import { Icon } from "frontik/react/Icon";
+import { NativeButton } from "frontik/_/react/components/Button/NativeButton";
 import "./FrontikIcons.scss";
 import cx from "classnames";
 
@@ -74,11 +75,18 @@ export default () => {
   ];
 
   return (
-    <>
+    <section className="demo-section">
       <div className="rowed">
-        <button className="toggler" onClick={showListHandler}>
+        <NativeButton
+          className="toggler"
+          variant="contained"
+          color="success"
+          onClick={showListHandler}
+        >
+          {" "}
           Show Frontik Icons List
-        </button>
+        </NativeButton>
+
         <h2 className="responsive-title xs">
           Font Name: 'Frontik'{" "}
           <small className="fgc1">(Glyphs: {frontikIconsList.length})</small>
@@ -88,7 +96,7 @@ export default () => {
       {showIconsList ? (
         <ul className="demo-icons">
           {frontikIconsList.map((icon) => (
-            <li>
+            <li className="demo-box">
               <Icon
                 size="md"
                 title={icon}
@@ -100,6 +108,6 @@ export default () => {
           ))}
         </ul>
       ) : null}
-    </>
+    </section>
   );
 };

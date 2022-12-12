@@ -37,7 +37,7 @@
 .frontik-images:before {
   content: "\e9ab";
 }
-.frontik-camera1:before {
+.frontik-camera:before {
   content: "\e9ac";
 }
 .frontik-file-picture:before {
@@ -70,7 +70,7 @@
 .frontik-user:before {
   content: "\e9af";
 }
-.frontik-users1:before {
+.frontik-users:before {
   content: "\e9b0";
 }
 .frontik-user-plus:before {
@@ -91,10 +91,10 @@
 .frontik-spinner6:before {
   content: "\e9ae";
 }
-.frontik-lock1:before {
+.frontik-lock:before {
   content: "\e9b7";
 }
-.frontik-unlocked1:before {
+.frontik-unlocked:before {
   content: "\e9b8";
 }
 .frontik-wrench:before {
@@ -127,7 +127,7 @@
 .frontik-heart:before {
   content: "\e9da";
 }
-.frontik-plus1:before {
+.frontik-plus:before {
   content: "\ea0a";
 }
 .frontik-minus:before {
@@ -184,16 +184,16 @@
 .frontik-google:before {
   content: "\ea88";
 }
-.frontik-facebook1:before {
+.frontik-facebook:before {
   content: "\ea90";
 }
-.frontik-instagram1:before {
+.frontik-instagram:before {
   content: "\ea92";
 }
-.frontik-twitter1:before {
+.frontik-twitter:before {
   content: "\ea96";
 }
-.frontik-youtube1:before {
+.frontik-youtube:before {
   content: "\ea9d";
 }
 .frontik-behance:before {
