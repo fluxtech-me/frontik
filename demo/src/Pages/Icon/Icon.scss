@@ -1,0 +1,68 @@
+$prefix: 'frontik';
+
+//SIZES
+$sizes: 'xs' 12,
+        'sm' 16,
+        'md' 24,
+        'lg' 32,
+        'xlg' 38;
+
+//COLORS
+$primary: #1976D2;
+$secondary: #9C27B0;
+$error: #D32F2F;
+$info: #0288D1;
+$warning: #ED6C02;
+$success: #2E7D32;
+
+$colorNames: (
+        'primary' $primary,
+        'secondary' $secondary,
+        'error' $error,
+        'info' $info,
+        'warning' $warning,
+        'success' $success,
+);
+
+//GET COLOR CLASSNAMES
+@each $colorName, $color in $colorNames{
+  .#{$prefix}{
+    &-#{$colorName} {
+      color: $color;
+    }
+  }
+}
+
+//GET SIZE CLASSNAMES
+@each $name, $size in $sizes {
+  $length: $size * 1px;
+  .#{$prefix}{
+    &-#{$name} {
+      font-size: $length;
+    }
+  }
+}
+//DISABLED
+.#{$prefix} {
+  transition: color .3s ease-out,
+              opacity .3s ease-out;
+  &.disabled{
+    pointer-events: none;
+    cursor: default;
+    opacity: .6;
+  }
+}
+
+[class*='frontik']{
+  &:focus {
+    color: orange;
+  }
+
+  &:focus-within {
+    color: red;
+  }
+
+  &:focus-visible {
+    color: blue;
+  }
+}

@@ -4,6 +4,7 @@
   "description": "Frontik Demo",
   "private": true,
   "dependencies": {
+    "classnames": "^2.3.2",
     "history": "^4.10.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

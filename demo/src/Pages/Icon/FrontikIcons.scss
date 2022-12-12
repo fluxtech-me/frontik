@@ -1,0 +1,68 @@
+//@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css";
+@import "../../Assets/fonts/frontik/style";
+//demo
+.demo-icons {
+  li {
+    border: 1px solid var(--greenColor);
+    padding: 10px;
+    border-radius: 8px;
+    flex: 0 0 calc(100% / 10);
+    .name {
+      display: block;
+      margin-top: 10px;
+      font-size: 12px;
+      color: var(--darkColor);
+    }
+  }
+}
+
+.components-section{
+  max-width: 80%;
+  margin: 0 auto;
+  .demo-type-list{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid var(--greenColor);
+    border-radius: 8px;
+    padding: 20px;
+    li {
+      color: #333;
+    }
+    b{
+      color: var(--darkColor);
+    }
+  }
+}
+@media screen {
+  .sec-wrapper{
+    display: flex;
+  }
+  .components-section{
+    max-width: 50%;
+    padding: 0 40px;
+    flex: 1;
+  }
+}
+.rowed {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  .toggler{
+    padding: 10px 12px;
+    border: none;
+    text-decoration: none;
+    background: var(--greenColor);
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    margin: 0 20px 0 0;
+    transition:  opacity .3s ease-out;
+    cursor: pointer;
+    &:hover{
+      opacity: .8;
+    }
+  }
+}

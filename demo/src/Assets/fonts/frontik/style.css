@@ -1,0 +1,207 @@
+@font-face {
+  font-family: 'Frontik';
+  src:  url('./fonts/Frontik.eot?8nf22c');
+  src:  url('./fonts/Frontik.eot?8nf22c#iefix') format('embedded-opentype'),
+    url('./fonts/Frontik.ttf?8nf22c') format('truetype'),
+    url('./fonts/Frontik.woff?8nf22c') format('woff'),
+    url('./fonts/Frontik.svg?8nf22c#Frontik') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.frontik {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Frontik' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.frontik-home3:before {
+  content: "\e9a8";
+}
+.frontik-pencil:before {
+  content: "\e9c2";
+}
+.frontik-image:before {
+  content: "\e9aa";
+}
+.frontik-images:before {
+  content: "\e9ab";
+}
+.frontik-camera1:before {
+  content: "\e9ac";
+}
+.frontik-file-picture:before {
+  content: "\e9bd";
+}
+.frontik-folder-open:before {
+  content: "\e9bc";
+}
+.frontik-price-tag:before {
+  content: "\e9ad";
+}
+.frontik-qrcode:before {
+  content: "\e9c0";
+}
+.frontik-cart:before {
+  content: "\e9bf";
+}
+.frontik-credit-card:before {
+  content: "\e9be";
+}
+.frontik-pushpin:before {
+  content: "\e9c1";
+}
+.frontik-location2:before {
+  content: "\e9b4";
+}
+.frontik-clock2:before {
+  content: "\e9c3";
+}
+.frontik-user:before {
+  content: "\e9af";
+}
+.frontik-users1:before {
+  content: "\e9b0";
+}
+.frontik-user-plus:before {
+  content: "\e9b1";
+}
+.frontik-user-minus:before {
+  content: "\e9b2";
+}
+.frontik-user-check:before {
+  content: "\e9b3";
+}
+.frontik-user-tie:before {
+  content: "\e9bb";
+}
+.frontik-spinner3:before {
+  content: "\e9ba";
+}
+.frontik-spinner6:before {
+  content: "\e9ae";
+}
+.frontik-lock1:before {
+  content: "\e9b7";
+}
+.frontik-unlocked1:before {
+  content: "\e9b8";
+}
+.frontik-wrench:before {
+  content: "\e9b9";
+}
+.frontik-cog:before {
+  content: "\e9b6";
+}
+.frontik-cogs:before {
+  content: "\e9b5";
+}
+.frontik-earth:before {
+  content: "\e9ca";
+}
+.frontik-eye:before {
+  content: "\e9ce";
+}
+.frontik-eye-plus:before {
+  content: "\e9cf";
+}
+.frontik-eye-minus:before {
+  content: "\e9d0";
+}
+.frontik-eye-blocked:before {
+  content: "\e9d1";
+}
+.frontik-bookmark:before {
+  content: "\e9d2";
+}
+.frontik-heart:before {
+  content: "\e9da";
+}
+.frontik-plus1:before {
+  content: "\ea0a";
+}
+.frontik-minus:before {
+  content: "\ea0b";
+}
+.frontik-info1:before {
+  content: "\ea0c";
+}
+.frontik-volume-medium:before {
+  content: "\ea27";
+}
+.frontik-volume-mute:before {
+  content: "\ea29";
+}
+.frontik-volume-mute2:before {
+  content: "\ea2a";
+}
+.frontik-volume-increase:before {
+  content: "\ea2b";
+}
+.frontik-volume-decrease:before {
+  content: "\ea2c";
+}
+.frontik-loop2:before {
+  content: "\ea2e";
+}
+.frontik-arrow-up-left2:before {
+  content: "\ea39";
+}
+.frontik-arrow-up2:before {
+  content: "\ea3a";
+}
+.frontik-arrow-up-right2:before {
+  content: "\ea3b";
+}
+.frontik-arrow-right2:before {
+  content: "\ea3c";
+}
+.frontik-arrow-down-right2:before {
+  content: "\ea3d";
+}
+.frontik-arrow-down2:before {
+  content: "\ea3e";
+}
+.frontik-arrow-down-left2:before {
+  content: "\ea3f";
+}
+.frontik-arrow-left2:before {
+  content: "\ea40";
+}
+.frontik-embed:before {
+  content: "\ea7f";
+}
+.frontik-google:before {
+  content: "\ea88";
+}
+.frontik-facebook1:before {
+  content: "\ea90";
+}
+.frontik-instagram1:before {
+  content: "\ea92";
+}
+.frontik-twitter1:before {
+  content: "\ea96";
+}
+.frontik-youtube1:before {
+  content: "\ea9d";
+}
+.frontik-behance:before {
+  content: "\eaa8";
+}
+.frontik-linkedin2:before {
+  content: "\eaca";
+}
+.frontik-pinterest:before {
+  content: "\ead1";
+}
