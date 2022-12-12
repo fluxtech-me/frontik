@@ -1,0 +1,124 @@
+@import "../../../styles/colors.scss";
+
+@mixin size($font-size, $padding) {
+  font-size: $font-size;
+  padding: $padding;
+}
+
+@mixin disabled($color: rgba(0, 0, 0, 0.26), $backgroundColor: currentColor) {
+  pointer-events: none;
+  cursor: default;
+  color: $color !important;
+  background-color: $backgroundColor;
+}
+
+@mixin getBtnColors($variant) {
+  @each $colorName, $color in $colorNames {
+    &.frontik-btn-#{$colorName} {
+      &:hover {
+        background-color: lighten($color, 45);
+      }
+      color: $color;
+      @if ($variant == "outlined") {
+        border: 1px solid currentColor;
+      } @else if $variant == "contained" {
+        color: #fff;
+        background-color: $color;
+        &:hover {
+          background-color: darken($color, 5);
+        }
+      }
+    }
+  }
+}
+
+#buttonDefaults {
+  min-width: 64px;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  border: 0;
+  margin: 0;
+  border-radius: 4px;
+  position: relative;
+  align-items: center;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  column-gap: 5px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.frontik-btn {
+  @extend #buttonDefaults;
+
+  &-outlined {
+    background-color: transparent;
+    @include getBtnColors("outlined");
+
+    &.frontik-btn-small {
+      @include size(0.8125rem, 3px 9px);
+    }
+
+    &.frontik-btn-medium {
+      @include size(0.875rem, 5px 15px);
+    }
+
+    &.frontik-btn-large {
+      @include size(0.9375rem, 7px 21px);
+    }
+
+    &.frontik-btn-disabled,
+    &.frontik-btn-loading {
+      @include disabled();
+      background: transparent;
+      border: 1px solid rgba(0, 0, 0, 0.26) !important;
+    }
+  }
+
+  &-text {
+    background-color: transparent;
+    @include getBtnColors("text");
+
+    &.frontik-btn-disabled,
+    &.frontik-btn-loading {
+      @include disabled();
+      background: transparent;
+    }
+
+    &.frontik-btn-small {
+      @include size(0.8125rem, 4px 5px);
+    }
+
+    &.frontik-btn-medium {
+      @include size(0.875rem, 6px 8px);
+    }
+
+    &.frontik-btn-large {
+      @include size(0.9375rem, 8px 11px);
+    }
+  }
+
+  &-contained {
+    @include getBtnColors("contained");
+
+    &.frontik-btn-small {
+      @include size(0.8125rem, 4px 10px);
+    }
+
+    &.frontik-btn-medium {
+      @include size(0.875rem, 6px 16px);
+    }
+
+    &.frontik-btn-large {
+      @include size(0.9375rem, 8px 22px);
+    }
+
+    &.frontik-btn-disabled,
+    &.frontik-btn-loading {
+      @include disabled($backgroundColor: rgba(0, 0, 0, 0.12));
+    }
+  }
+}

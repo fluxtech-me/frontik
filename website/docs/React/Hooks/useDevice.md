@@ -7,13 +7,13 @@ sidebar_position: 1
 ## Import
 
 ```
-import {useDevice} from 'frontik/react/hooks/useDevice'
+import {useDevice} from 'frontik/react/useDevice'
 ```
 
 ## Basic Usage
 
 ```js
-import {useDevice} from 'frontik/react/hooks/useDevice'
+import {useDevice} from 'frontik/react/useDevice'
 
 const App = () => {
     const Device = useDevice()

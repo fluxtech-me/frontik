@@ -2,8 +2,10 @@ node_modules
 
 # ide
 .idea
-.vscode
+.vscode/*
+!.vscode/settings.json
 
 .eslintcache
 .packed
 dist
+demo/build

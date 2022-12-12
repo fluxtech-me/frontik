@@ -1,12 +1,12 @@
 ---
 name: "📃 Documentation"
 about: Please file documentation issues here.
-title: ''
+title: ""
 labels: documentation
 assignees: anushavan-karapetyan, ruben-arushanyan
 ---
 
-Link: 
+Link:
 
 ## Description
 

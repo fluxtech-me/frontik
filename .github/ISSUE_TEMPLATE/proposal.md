@@ -1,7 +1,7 @@
 ---
 name: "🤌🏼 Proposal"
 about: To suggest something.
-title: ''
+title: ""
 labels: proposal
 assignees: anushavan-karapetyan, ruben-arushanyan
 ---

@@ -1,0 +1,23 @@
+
+[data-theme='dark'] .DemoBlock {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 16px;
+    align-items: center;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 8px;
+    row-gap: 8px;
+}
+.DemoBlock {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 16px;
+    align-items: center;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 8px;
+    row-gap: 8px;
+}
+

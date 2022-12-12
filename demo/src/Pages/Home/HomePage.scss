@@ -6,58 +6,58 @@ main {
   min-height: 100vh;
   text-align: center;
   padding: 60px 20px;
-  .component-section{
-    nav{
+  .component-section {
+    nav {
       border-top: 1px solid grey;
       display: inline-block;
       margin-top: 40px;
     }
   }
-  ul{
+  ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     padding: 0;
-    li{
+    li {
       margin: 5px 10px;
-      a{
+      a {
         text-decoration: none;
         padding: 6px 8px;
         display: inline-block;
         color: currentColor;
         font-weight: 500;
-        transition: background-color .3s ease-out;
+        transition: background-color 0.3s ease-out;
         border-radius: 4px;
         border: 1px solid;
-        &:hover{
-          background-color: rgba(#1a8870, .1);
+        &:hover {
+          background-color: rgba(#1a8870, 0.1);
         }
       }
     }
   }
 }
-.responsive-title{
-  font-size : clamp(2rem, 10vw, 3rem);
+.responsive-title {
+  font-size: clamp(2rem, 10vw, 3rem);
   margin: 0;
-  &.sm{
-    font-size : clamp(1rem, 10vw, 2rem);
+  &.sm {
+    font-size: clamp(1rem, 10vw, 2rem);
   }
-  &.xs{
-    font-size : clamp(.5rem, 10vw, 1rem);
+  &.xs {
+    font-size: clamp(0.5rem, 10vw, 1rem);
   }
 }
 //ANIMATION
-.beat{
+.beat {
   display: inline-block;
   animation: beat 1.5s ease-out infinite;
 }
-.beat-fade{
+.beat-fade {
   display: inline-block;
   animation: beat-fade 1.5s ease-out infinite;
 }
-.rotate{
+.rotate {
   display: inline-block;
-  animation: rotate 1.5s ease-out infinite ;
+  animation: rotate 1.5s ease-out infinite;
 }
 .spin {
   display: inline-block;
@@ -70,31 +70,31 @@ main {
   animation: shake 2s infinite linear;
 }
 @keyframes beat {
-  0%{
+  0% {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
-  50%{
-    -webkit-transform: scale(.5);
-    transform: scale(.5);
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
   }
-  100%{
+  100% {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
 }
 @keyframes beat-fade {
-  0%{
+  0% {
     -webkit-transform: scale(1);
     transform: scale(1);
     opacity: 1;
   }
-  50%{
-    -webkit-transform: scale(.5);
-    transform: scale(.5);
-    opacity: .2;
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0.2;
   }
-  100%{
+  100% {
     -webkit-transform: scale(1);
     transform: scale(1);
     opacity: 1;
@@ -110,11 +110,13 @@ main {
     -webkit-transform: rotate(15deg);
     transform: rotate(15deg);
   }
-  8%, 24% {
+  8%,
+  24% {
     -webkit-transform: rotate(-18deg);
     transform: rotate(-18deg);
   }
-  12%, 28% {
+  12%,
+  28% {
     -webkit-transform: rotate(18deg);
     transform: rotate(18deg);
   }
@@ -134,7 +136,8 @@ main {
     -webkit-transform: rotate(12deg);
     transform: rotate(12deg);
   }
-  40%, 100% {
+  40%,
+  100% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }

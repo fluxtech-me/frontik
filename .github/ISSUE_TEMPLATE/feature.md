@@ -1,7 +1,7 @@
 ---
 name: "🆕 Feature"
 about: Suggest a new feature for this project.
-title: ''
+title: ""
 labels: new feature
 assignees: anushavan-karapetyan, ruben-arushanyan
 ---

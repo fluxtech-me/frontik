@@ -1,0 +1,252 @@
+---
+sidebar_position: 2
+---
+
+import {Button} from 'frontik/react/Button'
+// import FF from './F'
+import DemoBlock from '@site/src/components/DemoBlock'
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+**Button** is a UI component in React that provides an `<button>` functional with extra power.
+
+## Import
+
+```js
+import {Button} from 'frontik/react/Button'
+```
+
+## Usage
+
+### Basic Button
+
+```jsx
+<Button>Text</Button>
+<Button variant="contained">Contained</Button>
+<Button variant="outlined">Outlined</Button>
+```
+<DemoBlock>
+    <Button>Text</Button>
+    <Button variant="contained">Contained</Button>
+    <Button variant="outlined">Outlined</Button>
+</DemoBlock>
+
+### Disabled Button
+
+```jsx
+<Button disabled >Text</Button>
+<Button disabled variant="contained">Contained</Button>
+<Button disabled variant="outlined">Outlined</Button>
+```
+<DemoBlock>
+    <Button disabled >Text</Button>
+    <Button disabled variant="contained">Contained</Button>
+    <Button disabled variant="outlined">Outlined</Button>
+</DemoBlock>
+
+### Loading Button
+
+#### Loading State
+```jsx
+<Button loading >Text</Button>
+<Button loading variant="contained">Contained</Button>
+<Button loading variant="outlined">Outlined</Button>
+```
+<DemoBlock>
+    <Button loading >Text</Button>
+    <Button loading variant="contained">Contained</Button>
+    <Button loading variant="outlined">Outlined</Button>
+</DemoBlock>
+
+#### Loading Indicator
+```jsx
+<Button loading loadingIndicator="Loading...">Click me!</Button>
+<Button loading loadingIndicator={<div>⏳</div>}>Click me!</Button>
+```
+<DemoBlock>
+    <Button loading loadingIndicator="Loading...">Click me!</Button>
+    <Button loading loadingIndicator={<div>⏳</div>}>Click me!</Button>
+</DemoBlock>
+
+#### Loading Position
+```jsx
+<Button loading loadingPosition='start' startIcon='start' variant='contained'>Click me!</Button>
+<Button loading loadingPosition='end' endIcon='end' variant='contained'>Click me!</Button>
+<Button loading loadingPosition='center' variant='contained'>Click me!</Button>
+```
+<DemoBlock>
+    <Button loading loadingPosition='start' startIcon='start' variant='contained'>Click me!</Button>
+    <Button loading loadingPosition='end' endIcon='end' variant='contained'>Click me!</Button>
+    <Button loading loadingPosition='center' variant='contained'>Click me!</Button>
+</DemoBlock>
+
+### Button colors
+
+
+<Tabs groupId="colors">
+<TabItem value="text" label="Text">
+
+```jsx
+    <Button color='primary'>Primary</Button>
+    <Button color='secondary'>Secondary</Button>
+    <Button color='success'>Success</Button>
+    <Button color='error'>Error</Button>
+    <Button color='info'>Info</Button>
+    <Button color='warning'>Warning</Button>
+```
+
+</TabItem>
+
+<TabItem value="contained" label="Contained">
+
+```jsx
+    <Button variant='contained' color='primary'>Primary</Button>
+    <Button variant='contained' color='secondary'>Secondary</Button>
+    <Button variant='contained' color='success'>Success</Button>
+    <Button variant='contained' color='error'>Error</Button>
+    <Button variant='contained' color='info'>Info</Button>
+    <Button variant='contained' color='warning'>Warning</Button>
+```
+
+</TabItem>
+
+<TabItem value="outlined" label="Outlined">
+
+```jsx
+    <Button variant='outlined' color='primary'>Primary</Button>
+    <Button variant='outlined' color='secondary'>Secondary</Button>
+    <Button variant='outlined' color='success'>Success</Button>
+    <Button variant='outlined' color='error'>Error</Button>
+    <Button variant='outlined' color='info'>Info</Button>
+    <Button variant='outlined' color='warning'>Warning</Button>
+```
+
+</TabItem>
+
+</Tabs>
+<Tabs groupId="colors">
+    <TabItem value="text" label="Text" default>
+        <DemoBlock>
+            <Button color='primary'>Primary</Button>
+            <Button color='secondary'>Secondary</Button>
+            <Button color='success'>Success</Button>
+            <Button color='error'>Error</Button>
+            <Button color='info'>Info</Button>
+            <Button color='warning'>Warning</Button>
+        </DemoBlock>
+    </TabItem>
+    <TabItem value="contained" label="Contained" default>
+        <DemoBlock>
+            <Button variant='contained' color='primary'>Primary</Button>
+            <Button variant='contained' color='secondary'>Secondary</Button>
+            <Button variant='contained' color='success'>Success</Button>
+            <Button variant='contained' color='error'>Error</Button>
+            <Button variant='contained' color='info'>Info</Button>
+            <Button variant='contained' color='warning'>Warning</Button>
+        </DemoBlock>
+    </TabItem>
+    <TabItem value="outlined" label="Outlined" default>
+        <DemoBlock>
+            <Button variant='outlined' color='primary'>Primary</Button>
+            <Button variant='outlined' color='secondary'>Secondary</Button>
+            <Button variant='outlined' color='success'>Success</Button>
+            <Button variant='outlined' color='error'>Error</Button>
+            <Button variant='outlined' color='info'>Info</Button>
+            <Button variant='outlined' color='warning'>Warning</Button>
+        </DemoBlock>
+    </TabItem>
+</Tabs>
+
+### Button sizes
+
+```jsx
+<Button variant='outlined' size='small'>Primary</Button>
+<Button variant='outlined' size='medium'>Secondary</Button>
+<Button variant='outlined' size='large'>Success</Button>
+```
+
+<DemoBlock>
+    <Button variant='outlined' size='small'>Small</Button>
+    <Button variant='outlined' size='medium'>Medium</Button>
+    <Button variant='outlined' size='large'>Large</Button>
+</DemoBlock>
+
+## API
+
+|        Name        |  Type   |                      Values                       |     Default      |                                                                        Description                                                                        |
+| :----------------: | :-----: | :-----------------------------------------------: | :--------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|     `disabled`     | Boolean |                    `true/false`                     |      `false`       |                                                            Makes button state disabled/enabled                                                            |
+|     `loading`      | Boolean |                    `true/false`                   |      `false`       |                                                                Change button loading state                                                                |
+|       `size`       | String  |               `"small"`, `"medium"`, `"large"`                |      `"medium"`      |                                                           The more common sizes of the button.                                                            |
+|      `color`       | String  | `"primary"`, `"secondary"`, `"success"`, `"error"`, `"info"`, `"warning"` |     `"primary"`      |                                         The color of the button. It supports both default and custom theme colors                                         |
+|    `className`     | String  |                                                   |                  |                                                   Override or extend the styles applied to the button.                                                    |
+|     `children`     |  node   |                                                   |                  |                                                                The content of the button.                                                                 |
+| `loadingIndicator` |  node   |                                                   | `<CircularProgress>` | Element placed before the children if the button is in loading state. The node should contain an element with role="progressbar" with an accessible name. |
+| `loadingPosition`  | String  |                `"start"`, `"end"`, `"center"`                 |      `"center"`      |                                                  The loading indicator can be positioned in the button.                                                   |
+|     `endIcon`      |  node   |                                                   |                  |                                                               Element placed after children                                                               |
+|    `startIcon`     |  node   |                                                   |                  |                                                              Element placed before children                                                               |
+|     `variant`      | String  |             `"outlined"`, `"text"`, `"contained"`             |       `"text"`       |                                Three common variants for button, any of which you can customize with overriding classnames                                |
+
+
+## Customization With CSS / SCSS
+
+- ClassName
+  - You can override the style of the button using your own classname with selecting and overriding `MaterialUi v5` default classnames. More about of default classnames you can know folow this link https://mui.com/material-ui/api/button/#css.
+  - Also you can use other variants of styles customization provided by `MaterialUi v5`. More about styles customization systems in `MaterialUi v5` you can know folow this link https://mui.com/material-ui/customization/how-to-customize/
+
+
+<!--
+## Button Without MaterialUI
+
+Also we have `NativeButton` component for situations if your project doesn't support MaterialUI v5
+
+- `NativeButton` component has same `interface`([**Props**](#props)) as the `Button` component
+- `NativeButton` styles customization
+
+  - You can customize `NativeButton` component with overriding default classnames
+  - There is a formula by which you can selcet default classnames and override there `fts-btn-{variant/color/size/state}`
+  - `variant` is a special sufix by wich you can select specific `variant` of button and affect all of `color/size/state` types of this variant
+  - `state` is a style sufix for `loading/disabled` state
+  - For Example
+
+    ```jsx
+    //example.js
+    <NativeButton
+      className="my-own-classname"
+      color="primary"
+      variant="outlined"
+      size="small"
+      disabled={true}
+      startIcon={<SwapVerticalCircle />}
+      endIcon={<SwapVerticalCircle />}
+    >
+      ClickMe
+    </NativeButton>
+    ```
+
+    ```scss
+    // example.scss
+    .my-own-classname {
+      &.frontik-btn-outlined {
+        font-family: "Courier New", Courier, monospace;
+        border-radius: 10px;
+      }
+
+      &.frontik-btn-primary {
+        border: 1px solid black;
+        color: purple;
+        &:hover {
+          background-color: grey;
+        }
+      }
+
+      &.frontik-btn-small {
+        padding: 3px 5px;
+      }
+
+      &.frontik-btn-disabled {
+        pointer-events: none;
+      }
+    }
+    ```
+-->

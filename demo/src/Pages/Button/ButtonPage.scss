@@ -1,0 +1,85 @@
+.btnsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  padding: 5px;
+}
+
+.radioGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  max-width: 700px;
+  margin: auto;
+  box-shadow: 10px 10px rgba(226, 222, 222, 0.925);
+  border-bottom: 1px solid rgba(168, 168, 168, 0.863);
+  border-radius: 20px;
+  background-color: rgba(243, 243, 243, 0.171);
+}
+
+.customized {
+  &.fts-btn-outlined {
+    border-radius: 25px;
+    box-shadow: 2px 2px rgba(168, 168, 168, 0.863);
+    &:hover {
+      background-color: rgba(141, 177, 243, 0.397);
+    }
+  }
+  &.fts-btn-info {
+    color: rgb(0, 33, 124);
+  }
+  &.fts-btn-large {
+    font-weight: 800;
+    padding: 10px 24px;
+  }
+  &.fts-btn-loading {
+    color: rgb(0, 33, 124) !important;
+    border-color: currentColor !important;
+    background-color: rgba(207, 229, 243, 0.39);
+    cursor: wait;
+    pointer-events: visible;
+  }
+}
+
+.customized-icon-btn {
+  &.frontik-btn-text {
+    border-radius: 50%;
+    min-width: fit-content;
+    padding: 5px;
+    .successIcon {
+      width: 30px;
+      height: 30px;
+    }
+    &:active {
+      .successIcon {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+  &.frontik-btn-success {
+    &:hover {
+      background-color: rgb(181, 243, 222);
+    }
+  }
+  &.frontik-btn-loading {
+    color: #2e7d32 !important;
+  }
+}

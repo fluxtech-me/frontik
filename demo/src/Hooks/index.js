@@ -1,1 +1,1 @@
-export {useWindowScroll} from './useWindowScroll'
+export { useWindowScroll } from "./useWindowScroll";

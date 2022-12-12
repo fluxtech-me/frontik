@@ -4,18 +4,17 @@
 
 node >=16
 
-
 <br/>
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the root directory, you can run:
 
 ### `npm start`
 
 Runs the app in the development mode.
 
-### `npm run build`
+### `npm run demo-build`
 
 Builds the app for production to the `build` folder.
 
@@ -34,7 +33,7 @@ In `/src/Main/Routers.js` add new route.
 For example:
 
 ```jsx
-<Route exact path='/button' component={ButtonPage} />
+<Route exact path="/button" component={ButtonPage} />
 ```
 
 ### Step 3
@@ -43,7 +42,7 @@ In `/src/Pages/Home/HomePage.js` add new route link.
 For example:
 
 ```jsx
-<Link to='/button'>Button</Link>
+<Link to="/button">Button</Link>
 ```
 
 ### Step 4
