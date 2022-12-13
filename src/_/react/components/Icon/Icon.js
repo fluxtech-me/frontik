@@ -2,6 +2,8 @@ import React from "react";
 import cx from "classnames";
 import "./Icon.scss";
 
+const prefix = "frontik-icon";
+
 export const Icon = (props) => {
   const {
     size = "",
@@ -13,24 +15,19 @@ export const Icon = (props) => {
     ...rest
   } = props;
 
-  const {} = rest;
-
-  const prefix = "frontik";
-
-  const modifyClassName = (option) => {
-    if (!option) return;
-    return prefix + "-" + option;
-  };
+  const sizeClassname = `${prefix}-${size}`;
+  const colorClassname = `${prefix}-${color}`;
 
   const classes = cx(
     name,
     className,
     animation,
-    modifyClassName(size),
-    modifyClassName(color),
     {
       disabled: disabled,
-    }
+      [colorClassname]: color,
+      [sizeClassname]: size,
+    },
+    prefix
   );
 
   return (

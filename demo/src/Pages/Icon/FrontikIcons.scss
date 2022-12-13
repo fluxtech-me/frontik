@@ -3,6 +3,8 @@
 
 //demo
 .demo-icons {
+  display: flex;
+  flex-wrap: wrap;
   li {
     padding: 14px 10px;
     flex-shrink: 1;
@@ -24,7 +26,7 @@
 }
 
 .components-section {
-  margin: 0 auto;
+  margin: 40px auto;
   .demo-type-list {
     text-align: center;
     display: flex;
@@ -70,7 +72,6 @@
 @include screen(md) {
   .components-section {
     padding: 0 40px;
-    margin-top: 40px;
   }
   .demo-section {
     padding: 0 40px;

@@ -97,12 +97,7 @@ export default () => {
         <ul className="demo-icons">
           {frontikIconsList.map((icon) => (
             <li className="demo-box">
-              <Icon
-                size="md"
-                title={icon}
-                // prefix="frontik"
-                name={cx("frontik", icon)}
-              />
+              <Icon size="md" title={icon} name={cx("frontik", icon)} />
               <span className="name"> {icon}</span>
             </li>
           ))}
