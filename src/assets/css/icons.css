@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Frontik";
-  src: url("./fonts/Frontik.eot?8nf22c");
-  src: url("./fonts/Frontik.eot?8nf22c#iefix") format("embedded-opentype"),
-    url("./fonts/Frontik.ttf?8nf22c") format("truetype"),
-    url("./fonts/Frontik.woff?8nf22c") format("woff"),
-    url("./fonts/Frontik.svg?8nf22c#Frontik") format("svg");
+  src: url("../font/Frontik.eot?8nf22c");
+  src: url("../font/Frontik.eot?8nf22c#iefix") format("embedded-opentype"),
+    url("../font/Frontik.ttf?8nf22c") format("truetype"),
+    url("../font/Frontik.woff?8nf22c") format("woff"),
+    url("../image/Frontik.svg?8nf22c#Frontik") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;

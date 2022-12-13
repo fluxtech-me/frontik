@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Icon } from "frontik/react/Icon";
-import { NativeButton } from "frontik/_/react/components/Button/NativeButton";
+import { NativeButton } from "frontik/react/NativeButton";
 import "./FrontikIcons.scss";
 import cx from "classnames";
 
