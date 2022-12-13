@@ -10,6 +10,7 @@ import { HomePage } from "Pages/Home/HomePage";
 import { ButtonPage } from "Pages/Button/ButtonPage";
 import { ModalPage } from "Pages/Modal/ModalPage";
 import { DevicePage } from "Pages/Device/DevicePage";
+import { IconPage } from "Pages/Icon/IconPage";
 
 import { NotFoundPage } from "Pages/NotFound/NotFoundPage";
 
@@ -21,6 +22,7 @@ const Routers = () => (
       <Route exact path="/button" component={ButtonPage} />
       <Route exact path="/modal" component={ModalPage} />
       <Route exact path="/device" component={DevicePage} />
+      <Route exact path="/icon" component={IconPage} />
 
       <Route component={NotFoundPage} />
     </Switch>

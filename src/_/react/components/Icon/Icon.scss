@@ -1,0 +1,48 @@
+@import "../../../styles/colors.scss";
+
+$prefix: "frontik-icon";
+
+//SIZES
+$sizes: "xs" 12, "sm" 16, "md" 24, "lg" 32, "xlg" 38;
+
+//GET COLOR CLASSNAMES
+@each $colorName, $color in $colorNames {
+  .#{$prefix} {
+    &-#{$colorName} {
+      color: $color;
+    }
+  }
+}
+
+//GET SIZE CLASSNAMES
+@each $name, $size in $sizes {
+  $length: $size * 1px;
+  .#{$prefix} {
+    &-#{$name} {
+      font-size: $length;
+    }
+  }
+}
+//DISABLED
+.#{$prefix} {
+  transition: color 0.3s ease-out, opacity 0.3s ease-out;
+  &.disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.6;
+  }
+}
+
+//[class*="frontik"] {
+//  &:focus {
+//    color: orange;
+//  }
+//
+//  &:focus-within {
+//    color: red;
+//  }
+//
+//  &:focus-visible {
+//    color: blue;
+//  }
+//}

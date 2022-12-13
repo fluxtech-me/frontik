@@ -1,0 +1,54 @@
+//DEMO ROOT COLORS
+:root {
+  --green: #1a8870;
+  --greenRGB: 26, 136, 112;
+  --darkColor: #333;
+}
+// BREAKPOINTS
+$media-xs: 576px;
+$media-sm: 768px;
+$media-md: 1024px;
+$media-lg: 1200px;
+$media-xlg: 1366px;
+$media-xlg1: 1367px;
+
+@mixin screen($size, $type: min, $pixels: $media-xs) {
+  @if $size == "xs" {
+    @media screen and ($type + -width: $media-xs) {
+      @content;
+    }
+  } @else if $size == "sm" {
+    @media screen and ($type + -width: $media-sm) {
+      @content;
+    }
+  } @else if $size == "md" {
+    @media screen and ($type + -width: $media-md) {
+      @content;
+    }
+  } @else if $size == "lg" {
+    @media screen and ($type + -width: $media-lg) {
+      @content;
+    }
+  } @else if $size == "xlg" {
+    @media screen and ($type + -width: $media-xlg) {
+      @content;
+    }
+  } @else if $size == "xlg1" {
+    @media screen and ($type + -width: $media-xlg1) {
+      @content;
+    }
+  } @else if $size == "custom" {
+    @media screen and ($type + -width: $pixels + px) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+#demoBox {
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgb(var(--greenRGB), 0.05) 0px 0px 0px 1px;
+}

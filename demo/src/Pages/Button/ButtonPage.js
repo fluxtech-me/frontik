@@ -9,7 +9,8 @@ import HelpCenterIcon from "@mui/icons-material/HelpCenter";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
 import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
-import { Button, NativeButton } from "frontik/react/Button";
+import { Button } from "frontik/react/Button";
+import { NativeButton } from "frontik/react/NativeButton";
 
 import "./ButtonPage.scss";
 
