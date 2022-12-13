@@ -18,18 +18,26 @@ const HomePage = () => {
         <h1 className="responsive-title">Frontik Demo</h1>
         <section className="component-section">
           <nav>
-            <ul>
+            <ul className="heading">
               <li>
-                <Link to="/button">Button</Link>
+                <Link className="demo-box" to="/button">
+                  Button
+                </Link>
               </li>
               <li>
-                <Link to="/modal">Modal</Link>
+                <Link className="demo-box" to="/modal">
+                  Modal
+                </Link>
               </li>
               <li>
-                <Link to="/device">Device</Link>
+                <Link className="demo-box" to="/device">
+                  Device
+                </Link>
               </li>
               <li>
-                <Link to="/icon">Icon</Link>
+                <Link className="demo-box" to="/icon">
+                  Icon
+                </Link>
               </li>
             </ul>
           </nav>

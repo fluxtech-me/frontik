@@ -23,7 +23,6 @@ export const Icon = (props) => {
   };
 
   const classes = cx(
-    // prefix,
     name,
     className,
     animation,
