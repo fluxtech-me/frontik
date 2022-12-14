@@ -4,7 +4,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import HeroBanner from '@site/src/components/HeroBanner';
 import AdditonalInfoLog from '@site/src/components/AdditonalInfoLog';
 
-
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 export default function Home() {
