@@ -1,4 +1,4 @@
-function (a, b, c, d = 8, e) {
+function absd (a, b, c, d = 8, e) {
   if ( a ===b ) {
     if (a > c) {
       if ( c == b) {
@@ -8,6 +8,14 @@ function (a, b, c, d = 8, e) {
   } else if ( d == c) {
     return  b + e + 100
   }
+}
+
+function new () {
+  const a = await 1+2;
+}
+
+function new2 () {
+  const a = await 1+2;
 }
 
 import React, {useRef, useState, useEffect} from 'react';
