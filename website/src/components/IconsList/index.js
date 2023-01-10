@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Icon } from "frontik/react/Icon";
 import { NativeButton } from "frontik/react/NativeButton";
-import "./FrontikIcons.scss";
+import styles from "./IconsList.module.css";
 import cx from "classnames";
 
-const IconsList = () => {
+export default () => {
   const [showIconsList, setShowIconsList] = useState(false);
 
   const showListHandler = () => {
@@ -75,35 +75,26 @@ const IconsList = () => {
   ];
 
   return (
-    <section className="demo-section">
-      <div className="rowed">
+      <>
         <NativeButton
           className="toggler"
           variant="contained"
           color="success"
           onClick={showListHandler}
         >
-          {" "}
           Show Frontik Icons List
         </NativeButton>
-
-        <h2 className="responsive-title xs">
-          Font Name: 'Frontik'{" "}
-          <small className="fgc1">(Glyphs: {frontikIconsList.length})</small>
-        </h2>
-      </div>
       <br />
       {showIconsList ? (
-        <ul className="demo-icons">
+        <ul className={styles.DemoIcons}>
           {frontikIconsList.map((icon) => (
-            <li className="demo-box">
+            <li>
               <Icon size="md" title={icon} name={cx("frontik", icon)} />
-              <span className="name"> {icon}</span>
+              <span className={styles.Name}> {icon}</span>
             </li>
           ))}
         </ul>
       ) : null}
-    </section>
+    </>
   );
 };
-export { IconsList };
