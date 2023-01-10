@@ -4,36 +4,7 @@ sidebar_position: 3
 import {Icon} from 'frontik/react/Icon'
 import DemoBlock from '@site/src/components/DemoBlock'
 
-**Icon** component gives us simple and pixel perfect icon solutions that providing three main services: vector icon packs, the IcoMoon App, and hosting icons as SVGs or fonts
-
-## Iconography
-
-To use Icon Component we should have our own Icon Font.
-The Icon Font benefits are:
-
-- Flexible
-- Scalable
-- Vector
-- Fast
-- Accessible
-- Local Usage
-
-The Icomoon benefits are:
-
-- Build Custom Fonts
-- Pixel Perfect Results
-- Free Icons, Free App
-- Awesome Iconography Tool
-- Import Your Own Vectors
-- Works Offline
-- Multiple Ligatures Per Glyph
-
-
-## Requirements
-
-To update or to modify the current icons list we should have selection.json file and use it within the Icommon portal
-
-[https://icomoon.io/app](https://icomoon.io/app)
+**Icon** component is currently used as portal for displaying icon fonts and gives us simple and pixel perfect icon solutions.
 
 ## Import
 
@@ -41,22 +12,21 @@ To update or to modify the current icons list we should have selection.json file
 import {Icon} from 'frontik/react/Icon'
 ```
 
+```css
+@import "frontik/assets/css/icons";
+```
+
 ## Usage
-
-Head over to [https://icomoon.io/app](https://icomoon.io/app) using a modern web browser to start using the IcoMoon app.
-You can download these icons, do some basic editing, import your own icons, make icon fonts (a font with icons as its glyphs) or generate icons in SVG, Polymer, PDF, XAML, PNG and CSS sprites.
-
-This app is also available in the [Chrome Web Store](https://chrome.google.com/webstore/detail/kppingdhhalimbaehfmhldppemnmlcjd?utm_source=chrome-ntp-icon) (runs offline).
 
 ### Basic Icon
 
 ```jsx
-<Icon name='frontik frontik-info' />
-<Icon name='frontik frontik-info' />
+<Icon name='frontik frontik-info1' />
+<Icon name='frontik frontik-heart' />
 ```
 <DemoBlock>
-    <Icon name='frontik frontik-info' />
-    <Icon name='frontik frontik-info' />
+    <Icon name='frontik frontik-info1' />
+    <Icon name='frontik frontik-heart' />
 </DemoBlock>
 
 ### Disabled Icon
@@ -103,16 +73,16 @@ This app is also available in the [Chrome Web Store](https://chrome.google.com/w
 ### Icon sizes
 
 ```jsx
-<Icon size='xs' name='frontik frontik-earth' />
+<Icon size='xs' name='frontik frontik-heart' />
 <Icon size='sm' name='frontik frontik-heart' />
-<Icon size='md' name='frontik frontik-frontik-spinner6' />
+<Icon size='md' name='frontik frontik-spinner6' />
 <Icon size='lg' name='frontik frontik-heart' />
 <Icon size='xlg' name='frontik frontik-heart' />
 ```
 <DemoBlock>
-    <Icon size='xs' name='frontik frontik-earth' />
+    <Icon size='xs' name='frontik frontik-heart' />
     <Icon size='sm' name='frontik frontik-heart' />
-    <Icon size='md' name='frontik frontik-frontik-spinner6' />
+    <Icon size='md' name='frontik frontik-spinner6' />
     <Icon size='lg' name='frontik frontik-heart' />
     <Icon size='xlg' name='frontik frontik-heart' />
 </DemoBlock>
@@ -129,11 +99,20 @@ Props of the native component are also available.
 |   `size`    |                String, xs, sm, md, lg, xlg                |       'inherit'        |                                                                       The fontSize applied to the icon. Can be configure to inherit font size.                                                                       |
 | `animation` |                          String                           |       'inherit'        |                                                                                Accepts the animation className for animating the Icon                                                                                |
 | `disabled`  |                          Boolean                          |         false          |                                                                                        Makes the Icon state disabled/enabled                                                                                         |
-|   `role`    |                          String                           |                        |                                             Necessary for Screen Readers to pronounce the focus action name that si important for Accessibility. Should be set to button                                             |
-| `tabindex`  |                          Number                           |                        | `tabindex` attribute allows to make the Icon interactive for the user using Tabs navigation and for the Screen Readers that is necessary for the Accessibility. Should be set to 0 for navigation in an right order. |
 
 
-### Using Inline SVGs
+## Requirements
+
+For default icon pack is used IcoMoon that providing three main services: vector icon packs, the IcoMoon App, and hosting icons as SVGs or fonts.
+
+To update or to modify the current and default icons list we should have <a target="\_blank" href='/data/selection.json' download>selection.json</a> file and use it within the <a target="\_blank" href='https://icomoon.io/app' download> Icommon portal</a>
+
+Head over to [https://icomoon.io/app](https://icomoon.io/app) using a modern web browser to start using the IcoMoon app.
+You can download these icons, do some basic editing, import your own icons, make icon fonts (a font with icons as its glyphs) or generate icons in SVG, Polymer, PDF, XAML, PNG and CSS sprites.
+
+This app is also available in the [Chrome Web Store](https://chrome.google.com/webstore/detail/kppingdhhalimbaehfmhldppemnmlcjd?utm_source=chrome-ntp-icon) (runs offline).
+
+#### Using Inline SVGs
 
 When you download your icon pack from the SVG tab in the IcoMoon app, it comes with a demo.html file that
 contains SVG icon definitions on top of the document, below <body /> and inside [SVG's <code>defs</code> element](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/defs).
@@ -145,4 +124,27 @@ These icons can be referenced and used as inline SVGs like so:
 </svg>
 ```
 
-<a target="\_blank" href='/data/selection.json' download> Download selection.json</a>
+For using other icon fonts, just place the CDN link or import it in CSS file.
+
+
+
+## Iconography
+
+The Icon Font benefits are:
+
+- Flexible
+- Scalable
+- Vector
+- Fast
+- Accessible
+- Local Usage
+
+The Icomoon benefits are:
+
+- Build Custom Fonts
+- Pixel Perfect Results
+- Free Icons, Free App
+- Awesome Iconography Tool
+- Import Your Own Vectors
+- Works Offline
+- Multiple Ligatures Per Glyph
