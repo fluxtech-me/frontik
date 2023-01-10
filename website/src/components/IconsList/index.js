@@ -5,7 +5,7 @@ import styles from "./IconsList.module.css";
 import cx from "classnames";
 
 export default () => {
-  const [showIconsList, setShowIconsList] = useState(false);
+  const [showIconsList, setShowIconsList] = useState(true);
 
   const showListHandler = () => {
     setShowIconsList(!showIconsList);
@@ -76,15 +76,15 @@ export default () => {
 
   return (
       <>
-        <NativeButton
+        {/* <NativeButton
           className="toggler"
           variant="contained"
           color="success"
           onClick={showListHandler}
         >
           Show Frontik Icons List
-        </NativeButton>
-      <br />
+        </NativeButton> */}
+      {/* <br /> */}
       {showIconsList ? (
         <ul className={styles.DemoIcons}>
           {frontikIconsList.map((icon) => (
