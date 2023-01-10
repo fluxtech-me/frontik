@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import FrontikIcons from "./FrontikIcons";
-import {Icon} from "frontik/react/Icon";
+import { Icon } from "frontik/react/Icon";
 import "frontik/assets/css/icons.css";
 // hooks
 import { useWindowScroll } from "Hooks";
