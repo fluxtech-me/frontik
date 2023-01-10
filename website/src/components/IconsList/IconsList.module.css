@@ -1,0 +1,22 @@
+.DemoIcons {
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    padding: 14px 10px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    max-width: 200px;
+    transition: 0.2s ease-out;
+    opacity: 0.8;
+    &:hover {
+      opacity: 1;
+      color: #1a8870;
+    }
+    .name {
+      display: block;
+      margin-top: 10px;
+      font-size: 12px;
+      color: currentColor;
+    }
+  }
+}
