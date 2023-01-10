@@ -1,0 +1,115 @@
+---
+sidebar_position: 3
+---
+import {Icon} from 'frontik/react/Icon'
+import DemoBlock from '@site/src/components/DemoBlock'
+import IconsList from '@site/src/components/IconsList';
+
+**Icon** component is currently used as portal for displaying icon fonts and gives us simple and pixel perfect icon solutions.
+
+## Import
+
+```js
+import {Icon} from 'frontik/react/Icon'
+import "frontik/assets/css/icons";
+```
+
+## Usage
+
+### Basic Icon
+
+```jsx
+<Icon name='frontik frontik-info1' />
+<Icon name='frontik frontik-heart' />
+```
+<DemoBlock>
+    <Icon name='frontik frontik-info1' />
+    <Icon name='frontik frontik-heart' />
+</DemoBlock>
+
+### Disabled Icon
+
+```jsx
+<Icon disabled name='frontik frontik-earth' />
+<Icon disabled name='frontik frontik-heart' />
+```
+<DemoBlock>
+    <Icon disabled name='frontik frontik-earth' />
+    <Icon disabled name='frontik frontik-heart' />
+</DemoBlock>
+
+### Animating/Loading Icon
+
+```jsx
+<Icon animation='spinner' name='frontik frontik-earth' />
+<Icon animation='spinner' name='frontik frontik-heart' />
+```
+<DemoBlock>
+    <Icon animation='spinner' name='frontik frontik-earth' />
+    <Icon animation='spinner' name='frontik frontik-heart' />
+</DemoBlock>
+
+### Icon colors
+
+```jsx
+<Icon color='primary' name='frontik frontik-earth' />
+<Icon color='secondary' name='frontik frontik-heart' />
+<Icon color='success' name='frontik frontik-frontik-spinner6' />
+<Icon color='error' name='frontik frontik-heart' />
+<Icon color='info' name='frontik frontik-heart' />
+<Icon color='warning' name='frontik frontik-heart' />
+```
+<DemoBlock>
+    <Icon color='primary' name='frontik frontik-earth' />
+    <Icon color='secondary' name='frontik frontik-heart' />
+    <Icon color='success' name='frontik frontik-frontik-spinner6' />
+    <Icon color='error' name='frontik frontik-heart' />
+    <Icon color='info' name='frontik frontik-heart' />
+    <Icon color='warning' name='frontik frontik-heart' />
+</DemoBlock>
+
+### Icon sizes
+
+```jsx
+<Icon size='xs' name='frontik frontik-heart' />
+<Icon size='sm' name='frontik frontik-heart' />
+<Icon size='md' name='frontik frontik-spinner6' />
+<Icon size='lg' name='frontik frontik-heart' />
+<Icon size='xlg' name='frontik frontik-heart' />
+```
+<DemoBlock>
+    <Icon size='xs' name='frontik frontik-heart' />
+    <Icon size='sm' name='frontik frontik-heart' />
+    <Icon size='md' name='frontik frontik-spinner6' />
+    <Icon size='lg' name='frontik frontik-heart' />
+    <Icon size='xlg' name='frontik frontik-heart' />
+</DemoBlock>
+
+## API
+
+Props of the native component are also available.
+
+|    Name     |                           Type                            |        Default         |                                                                                                     Description                                                                                                      |
+| :---------: | :-------------------------------------------------------: | :--------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|   `name`    |                          String                           | 'frontik frontik-name' |                        The base class applied to the icon. That must begin with the 'frontik-' prefix and after that should be the prefered icon name from your Icomoon pack font classNames.                        |
+| `className` |                          String                           |                        |                                                                                 Overrides or extends the styles applied to the Icon                                                                                  |
+|   `color`   | String, primary, secondary, success, error, info, warning |       'inherit'        |                                                                       The color of the component. Accepts all the colors defined by the System                                                                       |
+|   `size`    |                String, xs, sm, md, lg, xlg                |       'inherit'        |                                                                       The fontSize applied to the icon. Can be configure to inherit font size.                                                                       |
+| `animation` |                          String                           |       'inherit'        |                                                                                Accepts the animation className for animating the Icon                                                                                |
+| `disabled`  |                          Boolean                          |         false          |                                                                                        Makes the Icon state disabled/enabled                                                                                         |
+
+## Icons list
+<IconsList />
+
+## Add custom icons to list
+
+For default icon pack is used IcoMoon that providing three main services: vector icon packs, the IcoMoon App, and hosting icons as SVGs or fonts.
+
+To update or to modify the current and default icons list we should have <a target="\_blank" href='/data/selection.json' download>selection.json</a> file and use it within the <a target="\_blank" href='https://icomoon.io/app' download> Icommon portal</a>
+
+Head over to [https://icomoon.io/app](https://icomoon.io/app) using a modern web browser to start using the IcoMoon app.
+You can download these icons, do some basic editing, import your own icons, make icon fonts (a font with icons as its glyphs) or generate icons in SVG, Polymer, PDF, XAML, PNG and CSS sprites.
+
+This app is also available in the [Chrome Web Store](https://chrome.google.com/webstore/detail/kppingdhhalimbaehfmhldppemnmlcjd?utm_source=chrome-ntp-icon) (runs offline).
+
+For using other icon fonts, just place the CDN link or import it in CSS file.

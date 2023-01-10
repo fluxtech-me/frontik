@@ -23,4 +23,5 @@ npm install frontik
         - [useDevice](/docs/React/Hooks/useDevice)
     - Components
         - [Button](/docs/React/Components/Button)
+        - [Icon](/docs/React/Components/Icon)
 

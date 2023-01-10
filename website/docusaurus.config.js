@@ -116,7 +116,10 @@ const config = {
         //   editUrl: 'https://github.com/fluxtech-me/frontik/edit/master/website/',
         // },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [
+            require.resolve('./src/css/custom.css'),
+            require.resolve('frontik/assets/css/icons.css'),
+          ],
         },
       }),
     ],
