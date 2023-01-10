@@ -39,6 +39,11 @@ const HomePage = () => {
                   Icon
                 </Link>
               </li>
+              <li>
+                <Link className="demo-box" to="/notification">
+                  Notification
+                </Link>
+              </li>
             </ul>
           </nav>
         </section>
