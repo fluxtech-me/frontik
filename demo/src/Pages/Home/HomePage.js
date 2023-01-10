@@ -39,6 +39,16 @@ const HomePage = () => {
                   Icon
                 </Link>
               </li>
+              <li>
+                <Link className="demo-box" to="/image">
+                  Image
+                </Link>
+              </li>
+              <li>
+                <Link className="demo-box" to="/picture">
+                  Picture
+                </Link>
+              </li>
             </ul>
           </nav>
         </section>
